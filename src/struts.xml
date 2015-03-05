@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+    <constant name="struts.serve.static.browserCache" value="false" />
+    <constant name="struts.devMode" value="true" />
+    <constant name="struts.configuration.xml.reload" value="true" />
+    <constant name="struts.action.extension" value="" />
+    <constant name="struts.enable.SlashesInActionNames" value="true"/>
+    <package name="user" namespace="/" extends="struts-default">
+        <action name="index">
+            <result name="success">/index.jsp</result>
+        </action>
+
+        <action name="login">
+
+        </action>
+    </package>
+    
+    <package name="staticfile" namespace="/static" extends="struts-default">
+        <action name="*/*">
+            <result name="success">{2}</result>
+        </action>
+    </package>
+</struts>
