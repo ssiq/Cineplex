@@ -7,4 +7,5 @@ import cineplex.model.User;
  */
 public interface UserManageService {
     public User login(String username, String password);
+    public boolean addWaiter(User user);
 }

@@ -32,4 +32,14 @@ public class UserManageServiceImpl implements UserManageService{
             }
         }
     }
+
+    @Override
+    public boolean addWaiter(User user) {
+        if(userDao.find("username", user.getUsername()).isEmpty()){
+            userDao.save(user);
+            return true;
+        }else{
+            return false;
+        }
+    }
 }

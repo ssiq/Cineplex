@@ -46,7 +46,7 @@
     </bean>
 
     <bean id="LoginAction" class="cineplex.action.LoginAction"></bean>
-
+    <bean id="AddWaiterAction" class="cineplex.action.AddWaiterAction"></bean>
 
     <!-- 定义 Autowired 自动注入 bean -->
     <bean

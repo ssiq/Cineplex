@@ -10,7 +10,6 @@
     <constant name="struts.configuration.xml.reload" value="true" />
     <constant name="struts.action.extension" value="" />
     <constant name="struts.enable.SlashesInActionNames" value="true"/>
-    <constant name="struts.objectFactory" value="spring" />
     <package name="user" namespace="/" extends="struts-default">
         <action name="login" class="LoginAction">
             <result name="input">user/login.jsp</result>
@@ -22,7 +21,12 @@
 
     <package name="manager" namespace="/manager" extends="struts-default">
         <action name="addWaiter">
+            <result name="success">addWaiter.jsp</result>
+        </action>
 
+        <action name="doAddWaiter" class="AddWaiterAction">
+            <result name="input">addWaiter.jsp</result>
+            <result name="success">addSuccess.jsp</result>
         </action>
     </package>
     
