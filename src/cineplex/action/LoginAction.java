@@ -20,30 +20,43 @@ public class LoginAction extends BaseAction{
     private static final String WAITER="1";
     private static final String MANAGER="2";
 
-    public String execute(){
-
-        if(username==null){
-            username="";
-        }
-
-        if(password==null){
-            password="";
-        }
-
-        User user=userManageService.login(username, password);
-        if(user!=null){
-            session.put("user", user);
-            if(user.getIdentity().equals(MEMBER)){
-                return "member_logined";
-            }else if(user.getIdentity().equals(WAITER)){
-                return "waiter_logined";
-            }else if(user.getIdentity().equals(MANAGER)){
-                return "manager_logined";
-            }
+    private String generate_return(User user)
+    {
+        if(user.getIdentity().equals(MEMBER)){
+            return "member_logined";
+        }else if(user.getIdentity().equals(WAITER)){
+            return "waiter_logined";
+        }else if(user.getIdentity().equals(MANAGER)){
+            return "manager_logined";
         }else{
             return INPUT;
         }
-        return INPUT;
+    }
+
+    public String execute(){
+
+        User user=null;
+        if(session.containsKey("user"))
+        {
+            user=(User)session.get("user");
+            return generate_return(user);
+        }else{
+            if(username==null){
+                username="";
+            }
+
+            if(password==null){
+                password="";
+            }
+
+            user=userManageService.login(username, password);
+            if(user!=null){
+                session.put("user", user);
+                return generate_return(user);
+            }else{
+                return INPUT;
+            }
+        }
     }
 
     public String getUsername() {

@@ -7,6 +7,11 @@
     </database-info>
     <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact"/>
     <schema name="" catalog="Cineplex"/>
+    <table name="FilmOffice" schema="" catalog="Cineplex" type="TABLE">
+      <column name="filmOfficeName" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="size" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="filmOfficeName"/>
+    </table>
     <table name="User" schema="" catalog="Cineplex" type="TABLE">
       <column name="username" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
       <column name="identity" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>

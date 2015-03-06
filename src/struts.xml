@@ -28,6 +28,15 @@
             <result name="input">addWaiter.jsp</result>
             <result name="success">addSuccess.jsp</result>
         </action>
+
+        <action name="addFilmOffice">
+            <result name="success">addFilmOffice.jsp</result>
+        </action>
+
+        <action name="doAddFilmOffice" class="AddFilmOfficeAction">
+            <result name="success">addSuccess.jsp</result>
+            <result name="input">addFilmOffice.jsp</result>
+        </action>
     </package>
     
     <package name="staticfile" namespace="/static" extends="struts-default">

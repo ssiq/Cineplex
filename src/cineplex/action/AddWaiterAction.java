@@ -36,6 +36,7 @@ public class AddWaiterAction extends BaseAction{
         System.out.println("next time in the addWaiter page");
         user.setIdentity("1");
         if(userManageService.addWaiter(user)){
+            request.setAttribute("mess", "服务员添加成功");
             return SUCCESS;
         }else{
             String message="用户名已存在";

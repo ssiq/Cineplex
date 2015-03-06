@@ -47,6 +47,7 @@
 
     <bean id="LoginAction" class="cineplex.action.LoginAction"></bean>
     <bean id="AddWaiterAction" class="cineplex.action.AddWaiterAction"></bean>
+    <bean id="AddFilmOfficeAction" class="cineplex.action.AddFilmOfficeAction"></bean>
 
     <!-- 定义 Autowired 自动注入 bean -->
     <bean
@@ -57,7 +58,7 @@
     <!-- 声明式容器事务管理 ,transaction-manager指定事务管理器为transactionManager -->
     <tx:advice id="txAdvice" transaction-manager="transactionManager">
         <tx:attributes>
-            <tx:method name="*User" propagation="REQUIRED" />
+            <tx:method name="add*" propagation="REQUIRED" />
             <tx:method name="*" propagation="NOT_SUPPORTED" read-only="true" />
         </tx:attributes>
     </tx:advice>

@@ -9,5 +9,6 @@
 <div id="navigater">
     <ul>
         <li><a href="/manager/addWaiter">添加服务员</a></li>
+        <li><a href="/manager/addFilmOffice">添加影厅</a></li>
     </ul>
 </div>
