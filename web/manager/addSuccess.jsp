@@ -11,6 +11,7 @@
     <title></title>
 </head>
 <body>
+<jsp:include page="/navigater/manager_navigater.jsp"/>
     <p>服务员添加成功</p>
 </body>
 </html>
