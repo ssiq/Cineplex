@@ -10,6 +10,8 @@
       <root url="jar://$PROJECT_DIR$/lib/javassist-3.15.0-GA.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/dom4j-1.6.1.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/hibernate-core-4.2.2.Final.jar!/" />
+      <root url="jar://$USER_HOME$/workspace/HomeworkSSH/WebContent/WEB-INF/lib/jandex-1.1.0.Final.jar!/" />
+      <root url="jar://$USER_HOME$/workspace/HomeworkSSH/WebContent/WEB-INF/lib/jboss-logging-annotations-1.2.0.Beta1.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

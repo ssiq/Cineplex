@@ -45,6 +45,9 @@
         <property name="sessionFactory" ref="sessionFactory" />
     </bean>
 
+    <bean id="LoginAction" class="cineplex.action.LoginAction"></bean>
+
+
     <!-- 定义 Autowired 自动注入 bean -->
     <bean
             class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor" />

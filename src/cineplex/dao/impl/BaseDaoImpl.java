@@ -4,12 +4,14 @@ import cineplex.dao.BaseDao;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
 /**
  * Created by wlw on 15-3-6.
  */
+@Repository
 public class BaseDaoImpl implements BaseDao{
     /** * Autowired 自动装配 相当于get() set() */
     @Autowired
