@@ -6,6 +6,9 @@ import cineplex.service.FilmOfficeManageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created by wlw on 15-3-6.
  */
@@ -23,5 +26,18 @@ public class FilmOfficeManageServiceImpl implements FilmOfficeManageService {
         }else{
             return false;
         }
+    }
+
+    @Override
+    public List<String> getAllFilmOfficeName() {
+        List list=filmOfficeDao.all();
+        System.out.println("film list:"+list);
+        List<String> fnameList=new ArrayList<String>();
+        for(int i=0;i<list.size();++i)
+        {
+            FilmOffice fo=(FilmOffice)list.get(i);
+            fnameList.add(fo.getFilmOfficeName());
+        }
+        return fnameList;
     }
 }

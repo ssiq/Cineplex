@@ -15,4 +15,10 @@
         <tag-class>cineplex.tags.DisplayErrorMessageTag</tag-class>
         <body-content>empty</body-content>
     </tag>
+
+    <tag>
+        <name>displaySelcet</name>
+        <tag-class>cineplex.tags.DisplaySelectTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
 </taglib>

@@ -17,6 +17,10 @@
             <result name="waiter_logined">user/waiter_logined.jsp</result>
             <result name="manager_logined">user/manager_logined.jsp</result>
         </action>
+
+        <action name="logout" class="LogoutAction">
+            <result name="success">user/success_logout.jsp</result>
+        </action>
     </package>
 
     <package name="manager" namespace="/manager" extends="struts-default">
@@ -38,7 +42,19 @@
             <result name="input">addFilmOffice.jsp</result>
         </action>
     </package>
-    
+
+    <package name="waiter" namespace="/waiter" extends="struts-default">
+
+        <action name="addScreeningProgram" class="AllFilmOfficeAction">
+            <result name="success">addScreeningProgram.jsp</result>
+        </action>
+
+        <action name="doAddScreeningProgram" class="addScreenProgramAction">
+            <result name="success">addSuccess.jsp</result>
+            <result name="input">addScreeningProgram.jsp</result>
+        </action>
+    </package>
+
     <package name="staticfile" namespace="/static" extends="struts-default">
         <action name="*/*">
             <result name="success">{2}</result>

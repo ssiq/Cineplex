@@ -11,12 +11,31 @@
       <column name="filmOfficeName" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
       <column name="size" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
       <primary-key name="PRIMARY" columns="filmOfficeName"/>
+      <exported-key name="FK_rjchf4di22nli27eagehh7kuc" table="ScreeningProgram" schema="" catalog="Cineplex" columns="filmOffice_filmOfficeName"/>
+    </table>
+    <table name="ScreeningProgram" schema="" catalog="Cineplex" type="TABLE">
+      <column name="screeningProgramId" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="beginTime" sqlType="TIME" precision="8" scale="0" nullable="true" jdbcType="92"/>
+      <column name="date" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <column name="endTime" sqlType="TIME" precision="8" scale="0" nullable="true" jdbcType="92"/>
+      <column name="filmName" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="price" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="state" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="tag" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="filmOffice_filmOfficeName" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="user_username" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="screeningProgramId"/>
+      <foreign-key name="FK_t9bmrv0srwj95apgicbcp876i" columns="user_username" ref-table="User" ref-schema="" ref-catalog="Cineplex" ref-columns="username" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="FK_rjchf4di22nli27eagehh7kuc" columns="filmOffice_filmOfficeName" ref-table="FilmOffice" ref-schema="" ref-catalog="Cineplex" ref-columns="filmOfficeName" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="FK_rjchf4di22nli27eagehh7kuc" unique="false" columns="filmOffice_filmOfficeName"/>
+      <index name="FK_t9bmrv0srwj95apgicbcp876i" unique="false" columns="user_username"/>
     </table>
     <table name="User" schema="" catalog="Cineplex" type="TABLE">
       <column name="username" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
       <column name="identity" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
       <column name="password" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
       <primary-key name="PRIMARY" columns="username"/>
+      <exported-key name="FK_t9bmrv0srwj95apgicbcp876i" table="ScreeningProgram" schema="" catalog="Cineplex" columns="user_username"/>
     </table>
   </data-source>
 </component>

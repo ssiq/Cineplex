@@ -16,7 +16,7 @@
     <table>
         <tr>
             <th>用户名</th>
-            <td><input required="true" name="username" type="text" value="<s:property value="username"/> "/> </td>
+            <td><input required="true" name="username" type="text" value="<s:property value="username"/>"/> </td>
         </tr>
         <tr>
             <th>密码</th>

@@ -48,6 +48,9 @@
     <bean id="LoginAction" class="cineplex.action.LoginAction"></bean>
     <bean id="AddWaiterAction" class="cineplex.action.AddWaiterAction"></bean>
     <bean id="AddFilmOfficeAction" class="cineplex.action.AddFilmOfficeAction"></bean>
+    <bean id="LogoutAction" class="cineplex.action.LogoutAction"/>
+    <bean id="AddScreenProgramAction" class="cineplex.action.AddScreenProgramAction"/>
+    <bean id="AllFilmOfficeAction" class="cineplex.action.AllFilmOfficeAction"/>
 
     <!-- 定义 Autowired 自动注入 bean -->
     <bean
@@ -59,6 +62,9 @@
     <tx:advice id="txAdvice" transaction-manager="transactionManager">
         <tx:attributes>
             <tx:method name="add*" propagation="REQUIRED" />
+            <tx:method name="change*" propagation="REQUIRED" />
+            <tx:method name="accept*" propagation="REQUIRED" />
+            <tx:method name="refuse*" propagation="REQUIRED" />
             <tx:method name="*" propagation="NOT_SUPPORTED" read-only="true" />
         </tx:attributes>
     </tx:advice>

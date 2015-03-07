@@ -31,4 +31,9 @@ public class FilmOfficeDaoImpl implements FilmOfficeDao {
         Query query = session.createQuery(hql);
         return query.list();
     }
+
+    @Override
+    public List all() {
+        return baseDao.getAllList(FilmOffice.class);
+    }
 }

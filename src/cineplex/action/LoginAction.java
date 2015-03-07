@@ -38,9 +38,11 @@ public class LoginAction extends BaseAction{
         User user=null;
         if(session.containsKey("user"))
         {
+            System.out.println("old login");
             user=(User)session.get("user");
             return generate_return(user);
         }else{
+            System.out.println("new login");
             if(username==null){
                 username="";
             }
@@ -49,7 +51,7 @@ public class LoginAction extends BaseAction{
                 password="";
             }
 
-            user=userManageService.login(username, password);
+            user=userManageService.login(username.trim(), password.trim());
             if(user!=null){
                 session.put("user", user);
                 return generate_return(user);

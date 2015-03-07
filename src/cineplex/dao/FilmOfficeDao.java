@@ -10,4 +10,5 @@ import java.util.List;
 public interface FilmOfficeDao {
     public void save(FilmOffice filmOffice);
     public List find(String column, String value);
+    public List all();
 }
