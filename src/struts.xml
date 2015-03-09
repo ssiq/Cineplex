@@ -11,7 +11,14 @@
     <constant name="struts.action.extension" value="" />
     <constant name="struts.enable.SlashesInActionNames" value="true"/>
     <package name="user" namespace="/" extends="struts-default">
-        <action name="login" class="LoginAction">
+        <action name="login" class="LoginView">
+            <result name="success">user/login.jsp</result>
+            <result name="input" type="chain">
+                <param name="actionName">doLogin</param>
+            </result>
+        </action>
+
+        <action name="doLogin" class="LoginAction">
             <result name="input">user/login.jsp</result>
             <result name="member_logined">user/member_logined.jsp</result>
             <result name="waiter_logined">user/waiter_logined.jsp</result>
@@ -23,7 +30,7 @@
         </action>
     </package>
 
-    <package name="manager" namespace="/manager" extends="struts-default">
+    <package name="manager" namespace="/manager" extends="json-default">
         <action name="addWaiter">
             <result name="success">addWaiter.jsp</result>
         </action>
@@ -40,6 +47,18 @@
         <action name="doAddFilmOffice" class="AddFilmOfficeAction">
             <result name="success">addSuccess.jsp</result>
             <result name="input">addFilmOffice.jsp</result>
+        </action>
+
+        <action name="checkScreeningProgram" class="CheckScreeningProgramAction">
+            <result name="success">checkScreeningProgramAction.jsp</result>
+        </action>
+
+        <action name="acceptScreeningProgram" class="checkScreeningProgramAction" method="accept">
+            <result name="success" type="json"></result>
+        </action>
+
+        <action name="refuseScreeningProgram" class="checkScreeningProgramAction" method="refuse">
+            <result name="success" type="json"></result>
         </action>
     </package>
 

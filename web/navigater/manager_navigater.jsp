@@ -10,6 +10,7 @@
     <ul>
         <li><a href="/manager/addWaiter">添加服务员</a></li>
         <li><a href="/manager/addFilmOffice">添加影厅</a></li>
+        <li><a href="/manager/checkScreeningProgram">审核影厅开放计划</a></li>
         <li><a href="/logout">退出</a> </li>
     </ul>
 </div>

@@ -12,7 +12,7 @@
     <title></title>
 </head>
 <body>
-<s:form action="login" method="POST">
+<s:form action="doLogin" method="POST">
     <table>
         <tr>
             <th>用户名</th>

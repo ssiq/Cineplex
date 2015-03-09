@@ -1,6 +1,9 @@
 package cineplex.service;
 
+import cineplex.exception.MyException;
 import cineplex.model.ScreeningProgram;
+
+import java.util.List;
 
 /**
  * Created by wlw on 15-3-7.
@@ -8,6 +11,7 @@ import cineplex.model.ScreeningProgram;
 public interface ScreeningProgramManageService {
     public boolean addScreeningProgram(ScreeningProgram screeningProgram);
     public void changeScreeningProgram(ScreeningProgram screeningProgram);
-    public void acceptScreeningProgram(Integer screeningProgramId);
-    public void refuseScreeningProgram(Integer screeningProgramId);
+    public void acceptScreeningProgram(Integer screeningProgramId) throws MyException;
+    public void refuseScreeningProgram(Integer screeningProgramId) throws MyException;
+    public List getAllUnchecked();
 }

@@ -21,4 +21,10 @@
         <tag-class>cineplex.tags.DisplaySelectTag</tag-class>
         <body-content>empty</body-content>
     </tag>
+
+    <tag>
+        <name>displayUncheckedScreeningProgram</name>
+        <tag-class>cineplex.tags.DisplayUncheckedScreeningProgram</tag-class>
+        <body-content>empty</body-content>
+    </tag>
 </taglib>
