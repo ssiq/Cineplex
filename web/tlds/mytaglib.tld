@@ -27,4 +27,10 @@
         <tag-class>cineplex.tags.DisplayUncheckedScreeningProgram</tag-class>
         <body-content>empty</body-content>
     </tag>
+
+    <tag>
+        <name>displayMyScreeningProgram</name>
+        <tag-class>cineplex.tags.DisplayMyScreeningProgramTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
 </taglib>

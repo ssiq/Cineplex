@@ -1,5 +1,6 @@
 package cineplex.action;
 
+import cineplex.exception.MyException;
 import cineplex.model.FilmOffice;
 import cineplex.model.ScreeningProgram;
 import cineplex.model.User;
@@ -15,7 +16,7 @@ import java.util.List;
  * Created by wlw on 15-3-7.
  */
 @Repository
-public class AddScreenProgramAction extends BaseAction{
+public class ManageScreenProgramAction extends BaseAction{
 
     @Autowired
     private ScreeningProgramManageService screeningProgramManageService;
@@ -42,15 +43,14 @@ public class AddScreenProgramAction extends BaseAction{
         this.filmOfficeName = filmOfficeName;
     }
 
-    public String execute(){
-        System.out.println("addScreenProgram");
+    private void doSetFilmOfficeList()
+    {
         request.setAttribute("list", filmOfficeManageService.getAllFilmOfficeName());
         request.setAttribute("selected", (filmOfficeName==null)?"":filmOfficeName);
-        if(screeningProgram==null)
-        {
-            screeningProgram=new ScreeningProgram();
-            return INPUT;
-        }
+    }
+
+    private void doSetScreeningProgram()
+    {
         FilmOffice filmOffice=new FilmOffice();
         filmOffice.setFilmOfficeName(filmOfficeName);
         screeningProgram.setFilmOffice(filmOffice);
@@ -60,12 +60,49 @@ public class AddScreenProgramAction extends BaseAction{
         }
         screeningProgram.setUser((User)session.get("user"));
         screeningProgram.setState(ScreeningProgram.WAIT);
+    }
+
+    public String execute(){
+        System.out.println("addScreenProgram");
+        doSetFilmOfficeList();
+        if(screeningProgram==null)
+        {
+            screeningProgram=new ScreeningProgram();
+            return INPUT;
+        }
+        doSetScreeningProgram();
         if(screeningProgramManageService.addScreeningProgram(screeningProgram))
         {
             request.setAttribute("mess", "你的计划已提交，请等待经理审核");
             return SUCCESS;
         }else{
             request.setAttribute("mess", "你所提交的计划与已存在的计划冲突");
+            return INPUT;
+        }
+    }
+
+    public String changeScreeningProgramView()
+    {
+        System.out.println("changeScreeningProgramView");
+        screeningProgram=screeningProgramManageService.getScreeningProgramManageById(screeningProgram.getScreeningProgramId());
+        filmOfficeName=screeningProgram.getFilmOffice().getFilmOfficeName();
+        doSetFilmOfficeList();
+        System.out.println("now sp:"+screeningProgram);
+        return SUCCESS;
+    }
+
+    public String doChangeScreeningProgram()
+    {
+        System.out.println("doChangeScreeningProgram");
+        screeningProgram.setState(ScreeningProgram.WAIT);
+        doSetFilmOfficeList();
+        doSetScreeningProgram();
+        try {
+            screeningProgramManageService.changeScreeningProgram(screeningProgram);
+            request.setAttribute("mess","修改成功，请等待经理审核");
+            return SUCCESS;
+        } catch (MyException e) {
+            request.setAttribute("mess", e.getMessage());
             return INPUT;
         }
     }

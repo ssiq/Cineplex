@@ -28,6 +28,10 @@
         <action name="logout" class="LogoutAction">
             <result name="success">user/success_logout.jsp</result>
         </action>
+
+        <action name="index.jsp">
+            <result name="success">index.jsp</result>
+        </action>
     </package>
 
     <package name="manager" namespace="/manager" extends="json-default">
@@ -68,9 +72,22 @@
             <result name="success">addScreeningProgram.jsp</result>
         </action>
 
-        <action name="doAddScreeningProgram" class="addScreenProgramAction">
-            <result name="success">addSuccess.jsp</result>
+        <action name="doAddScreeningProgram" class="manageScreenProgramAction">
+            <result name="success">Success.jsp</result>
             <result name="input">addScreeningProgram.jsp</result>
+        </action>
+
+        <action name="seeMyScreeningProgram" class="SeeScreeningProgramStatusAction">
+            <result name="success">getMyScreeningProgram.jsp</result>
+        </action>
+
+        <action name="changeMyScreeningProgram" class="manageScreenProgramAction" method="changeScreeningProgramView">
+            <result name="success">changeScreeningProgram.jsp</result>
+        </action>
+
+        <action name="doChangeMyScreeningProgram" class="manageScreenProgramAction" method="doChangeScreeningProgram">
+            <result name="success">Success.jsp</result>
+            <result name="input">changeScreeningProgram.jsp</result>
         </action>
     </package>
 

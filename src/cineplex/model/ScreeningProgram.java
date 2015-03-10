@@ -111,4 +111,20 @@ public class ScreeningProgram {
     public final static String WAIT="wait";
     public final static String ACCEPT="accept";
     public final static String REFUSE="refuse";
+
+    @Override
+    public String toString() {
+        return "ScreeningProgram{" +
+                "screeningProgramId=" + screeningProgramId +
+                ", filmName='" + filmName + '\'' +
+                ", date=" + date +
+                ", beginTime=" + beginTime +
+                ", endTime=" + endTime +
+                ", price=" + price +
+                ", tag='" + tag + '\'' +
+                ", state='" + state + '\'' +
+                ", user=" + user +
+                ", filmOffice=" + filmOffice +
+                '}';
+    }
 }

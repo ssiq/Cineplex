@@ -13,4 +13,5 @@ public interface ScreeningProgramDao {
     public void update(ScreeningProgram screeningProgram);
     public List findJoinScreenProgram(ScreeningProgram screeningProgram);
     public ScreeningProgram findById(Integer screeningProgramId);
+    public List findByUsername(String username);
 }

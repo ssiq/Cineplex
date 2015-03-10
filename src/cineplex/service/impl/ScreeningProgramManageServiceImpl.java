@@ -3,6 +3,7 @@ package cineplex.service.impl;
 import cineplex.dao.ScreeningProgramDao;
 import cineplex.exception.MyException;
 import cineplex.model.ScreeningProgram;
+import cineplex.model.User;
 import cineplex.service.ScreeningProgramManageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -30,10 +31,24 @@ public class ScreeningProgramManageServiceImpl implements ScreeningProgramManage
     }
 
     @Override
-    public void changeScreeningProgram(ScreeningProgram screeningProgram) {
+    public void changeScreeningProgram(ScreeningProgram screeningProgram) throws MyException {
         if(screeningProgramDao.findById(screeningProgram.getScreeningProgramId())!=null)
         {
+            System.out.println("to change sp:"+screeningProgram);
+            List list=screeningProgramDao.findJoinScreenProgram(screeningProgram);
+            if(!list.isEmpty())
+            {
+
+                if(list.size()>1||
+                        ((ScreeningProgram)list.get(0)).getScreeningProgramId()!=screeningProgram.getScreeningProgramId())
+                {
+                    System.out.println("joined");
+                    throw new MyException("与现有计划冲突");
+                }
+            }
             screeningProgramDao.update(screeningProgram);
+        }else{
+            throw new MyException("该计划不存在");
         }
     }
 
@@ -65,5 +80,22 @@ public class ScreeningProgramManageServiceImpl implements ScreeningProgramManage
     @Override
     public List getAllUnchecked() {
         return screeningProgramDao.find("state", ScreeningProgram.WAIT);
+    }
+
+    @Override
+    public List getMyScreeningProgramManage(User user) {
+        List list=screeningProgramDao.findByUsername(user.getUsername());
+        return list;
+    }
+
+    @Override
+    public ScreeningProgram getScreeningProgramManageById(Integer screeningProgramId) {
+        ScreeningProgram screeningProgram=screeningProgramDao.findById(screeningProgramId);
+        if(screeningProgram!=null)
+        {
+            return screeningProgram;
+        }else{
+            return null;
+        }
     }
 }

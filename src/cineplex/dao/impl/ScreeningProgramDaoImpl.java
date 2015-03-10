@@ -3,6 +3,7 @@ package cineplex.dao.impl;
 import cineplex.dao.BaseDao;
 import cineplex.dao.ScreeningProgramDao;
 import cineplex.model.ScreeningProgram;
+import org.hibernate.Hibernate;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -40,11 +41,25 @@ public class ScreeningProgramDaoImpl implements ScreeningProgramDao {
     @Override
     public List findJoinScreenProgram(ScreeningProgram screeningProgram) {
         Session session = baseDao.getSession();
-        String hql="from cineplex.model.ScreeningProgram as sp where sp.date='"+screeningProgram.getDate()+"' and " +
-                "sp.beginTime<'"+screeningProgram.getEndTime()+"' and sp.endTime>'"+screeningProgram.getBeginTime()+"' and " +
-                "sp.filmOffice.filmOfficeName='"+screeningProgram.getFilmOffice().getFilmOfficeName()+"'";
+        String hql="from cineplex.model.ScreeningProgram as sp where sp.date=? and " +
+                "sp.beginTime<? and sp.endTime>? and " +
+                "sp.filmOffice.filmOfficeName=?";
         Query query = session.createQuery(hql);
-        return query.list();
+        query.setParameter(0, screeningProgram.getDate());
+        query.setParameter(1, screeningProgram.getEndTime());
+        query.setParameter(2, screeningProgram.getBeginTime());
+        query.setParameter(3, screeningProgram.getFilmOffice().getFilmOfficeName());
+        List list=query.list();
+        if(list.isEmpty())
+        {
+            System.out.println("no join sp");
+        }else{
+            for(int i=0;i<list.size();++i)
+            {
+                System.out.println("join sp:"+list.get(i));
+            }
+        }
+        return list;
     }
 
     @Override
@@ -59,5 +74,14 @@ public class ScreeningProgramDaoImpl implements ScreeningProgramDao {
         }else{
             return (ScreeningProgram)list.get(0);
         }
+    }
+
+    @Override
+    public List findByUsername(String username) {
+        Session session = baseDao.getSession();
+        String hql="from cineplex.model.ScreeningProgram as sp where sp.user.username='"+username+"'";
+        Query query = session.createQuery(hql);
+        List list=query.list();
+        return list;
     }
 }

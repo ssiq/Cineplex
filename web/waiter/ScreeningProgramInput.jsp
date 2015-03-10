@@ -26,7 +26,7 @@
     </tr>
     <tr>
         <th>放映日期</th>
-        <td><input type="date" name="screeningProgram.date" value="<s:property value="screeningProgram.date"/>"></td>
+        <td><input type="date" name="screeningProgram.date" value="<s:date name="screeningProgram.date" format="yyyy-MM-dd" />"></td>
     </tr>
     <tr>
         <th>开始时间</th>
