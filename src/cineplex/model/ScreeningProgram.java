@@ -3,6 +3,7 @@ package cineplex.model;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.sql.Time;
 import java.util.Date;
 
@@ -11,7 +12,7 @@ import java.util.Date;
  */
 @Entity
 @Table
-public class ScreeningProgram {
+public class ScreeningProgram implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @GenericGenerator(name = "paymentableGenerator", strategy = "native")

@@ -1,5 +1,7 @@
 package cineplex.service;
 
+import cineplex.exception.MyException;
+import cineplex.model.MemberDetail;
 import cineplex.model.User;
 
 /**
@@ -8,4 +10,5 @@ import cineplex.model.User;
 public interface UserManageService {
     public User login(String username, String password);
     public boolean addWaiter(User user);
+    public void addMember(User user,MemberDetail memberDetail) throws MyException;
 }

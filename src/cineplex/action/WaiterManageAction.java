@@ -9,7 +9,7 @@ import org.springframework.stereotype.Repository;
  * Created by wlw on 15-3-6.
  */
 @Repository
-public class AddWaiterAction extends BaseAction{
+public class WaiterManageAction extends BaseAction{
     @Autowired
     private UserManageService userManageService;
 

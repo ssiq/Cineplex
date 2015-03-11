@@ -39,7 +39,7 @@
             <result name="success">addWaiter.jsp</result>
         </action>
 
-        <action name="doAddWaiter" class="AddWaiterAction">
+        <action name="doAddWaiter" class="WaiterManageAction">
             <result name="input">addWaiter.jsp</result>
             <result name="success">addSuccess.jsp</result>
         </action>
@@ -88,6 +88,15 @@
         <action name="doChangeMyScreeningProgram" class="manageScreenProgramAction" method="doChangeScreeningProgram">
             <result name="success">Success.jsp</result>
             <result name="input">changeScreeningProgram.jsp</result>
+        </action>
+
+        <action name="addMemeber">
+            <result name="success">addMember.jsp</result>
+        </action>
+
+        <action name="doAddMember" class="memberManageAction">
+            <result name="input">addMember.jsp</result>
+            <result name="success">Success.jsp</result>
         </action>
     </package>
 

@@ -2,6 +2,7 @@ package cineplex.dao.impl;
 
 import cineplex.dao.BaseDao;
 import cineplex.dao.UserDao;
+import cineplex.model.MemberDetail;
 import cineplex.model.User;
 import org.hibernate.Query;
 import org.hibernate.Session;
@@ -29,5 +30,10 @@ public class UserDaoImpl implements UserDao{
         String hql="from cineplex.model.User as u where "+column+"='"+value+"'";
         Query query = session.createQuery(hql);
         return query.list();
+    }
+
+    @Override
+    public void save(MemberDetail memberDetail) {
+        baseDao.save(memberDetail);
     }
 }

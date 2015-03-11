@@ -1,6 +1,8 @@
 package cineplex.service.impl;
 
 import cineplex.dao.UserDao;
+import cineplex.exception.MyException;
+import cineplex.model.MemberDetail;
 import cineplex.model.User;
 import cineplex.service.UserManageService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -40,6 +42,16 @@ public class UserManageServiceImpl implements UserManageService{
             return true;
         }else{
             return false;
+        }
+    }
+
+    @Override
+    public void addMember(User user, MemberDetail memberDetail) throws MyException {
+        if(userDao.find("username", user.getUsername()).isEmpty()){
+            userDao.save(user);
+            userDao.save(memberDetail);
+        }else{
+            throw new MyException("这个用户已存在");
         }
     }
 }

@@ -1,5 +1,6 @@
 package cineplex.dao;
 
+import cineplex.model.MemberDetail;
 import cineplex.model.User;
 
 import java.util.List;
@@ -10,4 +11,5 @@ import java.util.List;
 public interface UserDao{
     public void save(User user);
     public List find(String column, String value);
+    public void save(MemberDetail memberDetail);
 }

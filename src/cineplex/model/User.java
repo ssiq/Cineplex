@@ -3,6 +3,7 @@ package cineplex.model;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import java.io.Serializable;
 
 /**
  * Created by wlw on 15-3-6.
@@ -10,7 +11,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table
-public class User {
+public class User implements Serializable {
     @Id
     private String username;
     private String password;

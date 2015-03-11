@@ -3,13 +3,14 @@ package cineplex.model;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import java.io.Serializable;
 
 /**
  * Created by wlw on 15-3-6.
  */
 @Entity
 @Table
-public class FilmOffice {
+public class FilmOffice implements Serializable {
     @Id
     private String filmOfficeName;
     private String size;

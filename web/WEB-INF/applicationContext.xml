@@ -46,7 +46,7 @@
     </bean>
 
     <bean id="LoginAction" class="cineplex.action.LoginAction"></bean>
-    <bean id="AddWaiterAction" class="cineplex.action.AddWaiterAction"></bean>
+    <bean id="WaiterManageAction" class="cineplex.action.WaiterManageAction"></bean>
     <bean id="AddFilmOfficeAction" class="cineplex.action.AddFilmOfficeAction"></bean>
     <bean id="LogoutAction" class="cineplex.action.LogoutAction"/>
     <bean id="AddScreenProgramAction" class="cineplex.action.ManageScreenProgramAction"/>
@@ -54,6 +54,7 @@
     <bean id="LoginView" class="cineplex.action.LoginView"/>
     <bean id="CheckScreeningProgramAction" class="cineplex.action.CheckScreeningProgramAction"/>
     <bean id="SeeScreeningProgramStatusAction" class="cineplex.action.SeeScreeningProgramStatusAction"/>
+    <bean id="MemberManageAction" class="cineplex.action.MemberManageAction"/>
 
     <!-- 定义 Autowired 自动注入 bean -->
     <bean
