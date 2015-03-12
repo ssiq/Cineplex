@@ -40,4 +40,15 @@ public class FilmOfficeManageServiceImpl implements FilmOfficeManageService {
         }
         return fnameList;
     }
+
+    @Override
+    public FilmOffice getById(String filmOfficeName) {
+        List list=filmOfficeDao.find("filmOfficeName", filmOfficeName);
+        if(list.isEmpty())
+        {
+            return null;
+        }else{
+            return (FilmOffice)list.get(0);
+        }
+    }
 }

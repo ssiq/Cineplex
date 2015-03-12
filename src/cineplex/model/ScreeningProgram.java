@@ -5,7 +5,10 @@ import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.*;
 import java.io.Serializable;
 import java.sql.Time;
+import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.LinkedList;
+import java.util.List;
 
 /**
  * Created by wlw on 15-3-7.
@@ -21,13 +24,14 @@ public class ScreeningProgram implements Serializable {
     private Date date;
     private Time beginTime;
     private Time endTime;
-    private Integer price;
+    private Double price;
     private String tag;
     private String state;
     @ManyToOne(targetEntity=User.class,cascade=CascadeType.ALL, optional=false)
     private User user;
     @ManyToOne(targetEntity=FilmOffice.class,cascade=CascadeType.ALL, optional=false)
     private FilmOffice filmOffice;
+    private Integer left_number;
 
     public Integer getScreeningProgramId() {
         return screeningProgramId;
@@ -37,11 +41,11 @@ public class ScreeningProgram implements Serializable {
         this.screeningProgramId = screeningProgramId;
     }
 
-    public Integer getPrice() {
+    public Double getPrice() {
         return price;
     }
 
-    public void setPrice(Integer price) {
+    public void setPrice(Double price) {
         this.price = price;
     }
 
@@ -109,6 +113,14 @@ public class ScreeningProgram implements Serializable {
         this.filmName = filmName;
     }
 
+    public Integer getLeft_number() {
+        return left_number;
+    }
+
+    public void setLeft_number(Integer left_number) {
+        this.left_number = left_number;
+    }
+
     public final static String WAIT="wait";
     public final static String ACCEPT="accept";
     public final static String REFUSE="refuse";
@@ -127,5 +139,23 @@ public class ScreeningProgram implements Serializable {
                 ", user=" + user +
                 ", filmOffice=" + filmOffice +
                 '}';
+    }
+
+    public List toList(List e_list){
+        List list=new LinkedList();
+        list.add(filmName);
+        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
+        list.add(format.format(date));
+        list.add(beginTime);
+        list.add(endTime);
+        list.add(price);
+        list.add(filmOffice.getFilmOfficeName());
+        e_list.set(0, "<form action=\"toBuy\" method=\"post\" >" +
+                "<input type=\"hidden\" name=\"screeningProgramId\" value=\""+
+                screeningProgramId+"\"/>"+e_list.get(0).toString());
+        int size=e_list.size();
+        e_list.set(size-1, e_list.get(size-1).toString()+"</form>");
+        list.addAll(e_list);
+        return list;
     }
 }

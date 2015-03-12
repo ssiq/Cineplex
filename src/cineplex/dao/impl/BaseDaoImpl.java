@@ -48,7 +48,6 @@ public class BaseDaoImpl implements BaseDao{
         String hql = "from " + c.getName();
         Session session = getSession();
         return session.createQuery(hql).list();
-
     }
 
     /** * 获取总数量 * * @param c * @return */

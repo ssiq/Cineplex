@@ -100,6 +100,20 @@
         </action>
     </package>
 
+    <package name="member" namespace="/member" extends="json-default">
+        <action name="buy" class="TicketManageAction" method="getAllFilms">
+            <result name="success">buyTicket.jsp</result>
+        </action>
+
+        <action name="toBuy" class="TicketManageAction" method="toBuyTicket">
+            <result name="success">toBuyTicket.jsp</result>
+        </action>
+
+        <action name="doBuy" class="TicketManageAction" method="buyTicket">
+            <result name="success">Success.jsp</result>
+        </action>
+    </package>
+
     <package name="staticfile" namespace="/static" extends="struts-default">
         <action name="*/*">
             <result name="success">{2}</result>

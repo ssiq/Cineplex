@@ -18,7 +18,7 @@ public class MemberDetail implements Serializable{
     private String age;
     @Column(length = 7)
     private String cardnumber;
-    private Integer money;
+    private Double money;
     private Date date;
     private String state;
 
@@ -62,11 +62,11 @@ public class MemberDetail implements Serializable{
         this.cardnumber = cardnumber;
     }
 
-    public Integer getMoney() {
+    public Double getMoney() {
         return money;
     }
 
-    public void setMoney(Integer money) {
+    public void setMoney(Double money) {
         this.money = money;
     }
 

@@ -33,4 +33,40 @@
         <tag-class>cineplex.tags.DisplayMyScreeningProgramTag</tag-class>
         <body-content>empty</body-content>
     </tag>
+
+    <tag>
+        <name>displayTableTitle</name>
+        <tag-class>cineplex.tags.DisplayTitle</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>titleName</name>
+            <required>true</required>
+            <rtexprvalue>false</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+    </tag>
+
+    <tag>
+        <name>displayTableBody</name>
+        <tag-class>cineplex.tags.DisplayTableBody</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>bodyName</name>
+            <required>true</required>
+            <rtexprvalue>false</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+    </tag>
+
+    <tag>
+        <name>displayTable</name>
+        <tag-class>cineplex.tags.DisplayTable</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>tableName</name>
+            <required>true</required>
+            <rtexprvalue>false</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+    </tag>
 </taglib>

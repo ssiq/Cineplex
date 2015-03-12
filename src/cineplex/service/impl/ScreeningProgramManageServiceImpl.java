@@ -98,4 +98,9 @@ public class ScreeningProgramManageServiceImpl implements ScreeningProgramManage
             return null;
         }
     }
+
+    @Override
+    public List getNowOpenScreeningProgram() {
+        return screeningProgramDao.allOpen();
+    }
 }

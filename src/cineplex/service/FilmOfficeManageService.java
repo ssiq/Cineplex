@@ -10,4 +10,5 @@ import java.util.List;
 public interface FilmOfficeManageService {
     public boolean addFilmOffice(FilmOffice filmOffice);
     public List<String> getAllFilmOfficeName();
+    public FilmOffice getById(String filmOfficeName);
 }

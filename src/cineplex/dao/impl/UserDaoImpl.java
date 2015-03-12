@@ -36,4 +36,24 @@ public class UserDaoImpl implements UserDao{
     public void save(MemberDetail memberDetail) {
         baseDao.save(memberDetail);
     }
+
+    @Override
+    public MemberDetail getDetail(User user) {
+        Session session = baseDao.getSession();
+        String hql="from cineplex.model.MemberDetail as m where m.username=?";
+        Query query = session.createQuery(hql);
+        query.setParameter(0, user);
+        List list=query.list();
+        if(list.isEmpty())
+        {
+            return null;
+        }else {
+            return (MemberDetail)list.get(0);
+        }
+    }
+
+    @Override
+    public void updateMemberDetail(MemberDetail memberDetail) {
+        baseDao.update(memberDetail);
+    }
 }

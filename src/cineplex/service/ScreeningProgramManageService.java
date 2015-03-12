@@ -17,4 +17,5 @@ public interface ScreeningProgramManageService {
     public List getAllUnchecked();
     public List getMyScreeningProgramManage(User user);
     public ScreeningProgram getScreeningProgramManageById(Integer screeningProgramId);
+    public List getNowOpenScreeningProgram();
 }

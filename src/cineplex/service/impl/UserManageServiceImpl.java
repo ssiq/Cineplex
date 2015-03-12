@@ -54,4 +54,15 @@ public class UserManageServiceImpl implements UserManageService{
             throw new MyException("这个用户已存在");
         }
     }
+
+    @Override
+    public MemberDetail getDetail(User user) {
+        MemberDetail memberDetail=userDao.getDetail(user);
+        return memberDetail;
+    }
+
+    @Override
+    public void changeMemberDetail(MemberDetail memberDetail) {
+        userDao.updateMemberDetail(memberDetail);
+    }
 }

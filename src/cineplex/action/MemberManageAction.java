@@ -1,5 +1,6 @@
 package cineplex.action;
 
+import cineplex.Utility.Utility;
 import cineplex.exception.MyException;
 import cineplex.model.MemberDetail;
 import cineplex.model.User;
@@ -66,17 +67,6 @@ public class MemberManageAction extends BaseAction{
         return String.format("%07d", cardnumber);
     }
 
-    private Date getNowDate()
-    {
-        Calendar calendar=Calendar.getInstance();
-        int y=calendar.get(Calendar.YEAR);
-        int m=calendar.get(Calendar.MONTH);
-        int d=calendar.get(Calendar.DAY_OF_MONTH);
-        calendar.set(0,0,00,0,0,0);
-        calendar.set(y,m,d);
-        return calendar.getTime();
-    }
-
     @Override
     public String execute() {
         if(memberDetail.getMoney()<200)
@@ -89,7 +79,7 @@ public class MemberManageAction extends BaseAction{
             String cardnumber=generateCardNumber();
             memberDetail.setCardnumber(cardnumber);
             memberDetail.setUsername(user);
-            memberDetail.setDate(getNowDate());
+            memberDetail.setDate(Utility.getNowDate());
             memberDetail.setState(MemberDetail.ACTIVE);
             userManageService.addMember(user, memberDetail);
             request.setAttribute("mess", "你的卡号是"+cardnumber);

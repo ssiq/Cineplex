@@ -51,8 +51,11 @@ public class ManageScreenProgramAction extends BaseAction{
 
     private void doSetScreeningProgram()
     {
-        FilmOffice filmOffice=new FilmOffice();
-        filmOffice.setFilmOfficeName(filmOfficeName);
+        FilmOffice filmOffice=filmOfficeManageService.getById(filmOfficeName);
+        if(filmOffice!=null)
+        {
+            screeningProgram.setLeft_number(Integer.parseInt(filmOffice.getSize()));
+        }
         screeningProgram.setFilmOffice(filmOffice);
         if((User)session.get("user")==null)
         {

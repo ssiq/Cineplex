@@ -11,4 +11,6 @@ public interface UserManageService {
     public User login(String username, String password);
     public boolean addWaiter(User user);
     public void addMember(User user,MemberDetail memberDetail) throws MyException;
+    public MemberDetail getDetail(User user);
+    public void changeMemberDetail(MemberDetail memberDetail);
 }
