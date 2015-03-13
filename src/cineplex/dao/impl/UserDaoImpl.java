@@ -56,4 +56,14 @@ public class UserDaoImpl implements UserDao{
     public void updateMemberDetail(MemberDetail memberDetail) {
         baseDao.update(memberDetail);
     }
+
+    @Override
+    public List findMemberDetail(String column, Object value) {
+        Session session = baseDao.getSession();
+        String hql="from cineplex.model.MemberDetail as m where m."+column+"=?";
+        Query query = session.createQuery(hql);
+        query.setParameter(0, value);
+        List list=query.list();
+        return list;
+    }
 }

@@ -8,4 +8,6 @@ import cineplex.model.User;
  */
 public interface TicketManageService {
     public String buyTicket(Integer screeningProgramId, User user, Integer number) throws MyException;
+    public String buyTicket(Integer screeningProgramId, String cardNumber, Integer number) throws MyException;
+    public String buyTicketNoMember(Integer screeningProgramId, Integer number) throws MyException;
 }

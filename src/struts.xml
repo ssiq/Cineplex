@@ -98,19 +98,33 @@
             <result name="input">addMember.jsp</result>
             <result name="success">Success.jsp</result>
         </action>
+
+        <action name="sell" class="getAllFilmsAction" method="getAllFilmsToSell">
+            <result name="success">sellTicket.jsp</result>
+        </action>
+
+        <action name="toSell" class="ToTicketAction" method="toTicket">
+            <result name="success">toSellTicket.jsp</result>
+        </action>
+
+        <action name="doSell" class="SellTicketAction" method="doSell">
+            <result name="success">Success.jsp</result>
+            <result name="input">./../error.jsp</result>
+        </action>
     </package>
 
     <package name="member" namespace="/member" extends="json-default">
-        <action name="buy" class="TicketManageAction" method="getAllFilms">
+        <action name="buy" class="getAllFilmsAction" method="getAllFilmsToBuy">
             <result name="success">buyTicket.jsp</result>
         </action>
 
-        <action name="toBuy" class="TicketManageAction" method="toBuyTicket">
+        <action name="toBuy" class="ToTicketAction" method="toTicket">
             <result name="success">toBuyTicket.jsp</result>
         </action>
 
-        <action name="doBuy" class="TicketManageAction" method="buyTicket">
+        <action name="doBuy" class="BuyTicketAction" method="buyTicket">
             <result name="success">Success.jsp</result>
+            <result name="input">./../error.jsp</result>
         </action>
 
         <action name="recharge">

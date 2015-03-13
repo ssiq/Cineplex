@@ -11,6 +11,7 @@
         <li><a href="/waiter/addScreeningProgram">制定影厅放映计划</a></li>
         <li><a href="/waiter/seeMyScreeningProgram">我的影厅放映计划</a></li>
         <li><a href="/waiter/addMemeber">添加会员</a> </li>
+        <li><a href="/waiter/sell">卖票</a></li>
         <li><a href="/logout">退出</a> </li>
     </ul>
 </div>

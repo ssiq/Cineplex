@@ -14,4 +14,5 @@ public interface UserDao{
     public void save(MemberDetail memberDetail);
     public MemberDetail getDetail(User user);
     public void updateMemberDetail(MemberDetail memberDetail);
+    public List findMemberDetail(String column, Object value);
 }

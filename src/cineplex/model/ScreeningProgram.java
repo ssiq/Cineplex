@@ -1,5 +1,6 @@
 package cineplex.model;
 
+import cineplex.action.ExtraList;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
@@ -141,7 +142,7 @@ public class ScreeningProgram implements Serializable {
                 '}';
     }
 
-    public List toList(List e_list){
+    public List toList(ExtraList e){
         List list=new LinkedList();
         list.add(filmName);
         SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
@@ -150,12 +151,7 @@ public class ScreeningProgram implements Serializable {
         list.add(endTime);
         list.add(price);
         list.add(filmOffice.getFilmOfficeName());
-        e_list.set(0, "<form action=\"toBuy\" method=\"post\" >" +
-                "<input type=\"hidden\" name=\"screeningProgramId\" value=\""+
-                screeningProgramId+"\"/>"+e_list.get(0).toString());
-        int size=e_list.size();
-        e_list.set(size-1, e_list.get(size-1).toString()+"</form>");
-        list.addAll(e_list);
+        list.addAll(e.toList(this));
         return list;
     }
 }
