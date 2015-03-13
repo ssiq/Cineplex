@@ -7,6 +7,11 @@
     </database-info>
     <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact"/>
     <schema name="" catalog="Cineplex"/>
+    <table name="BankAccount" schema="" catalog="Cineplex" type="TABLE">
+      <column name="cardNumber" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="balance" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <primary-key name="PRIMARY" columns="cardNumber"/>
+    </table>
     <table name="FilmOffice" schema="" catalog="Cineplex" type="TABLE">
       <column name="filmOfficeName" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
       <column name="size" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
@@ -26,6 +31,15 @@
       <foreign-key name="FK_7y88g8jh0i51n791a494re5q5" columns="username_username" ref-table="User" ref-schema="" ref-catalog="Cineplex" ref-columns="username" update-rule="3" delete-rule="3" deferrability="2"/>
       <index name="FK_7y88g8jh0i51n791a494re5q5" unique="false" columns="username_username"/>
     </table>
+    <table name="RechargeRecord" schema="" catalog="Cineplex" type="TABLE">
+      <column name="rechargeRcordId" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="date" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <column name="money" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="user_username" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="rechargeRcordId"/>
+      <foreign-key name="FK_a7c2q4gow0pd5wvf5vlnaklk5" columns="user_username" ref-table="User" ref-schema="" ref-catalog="Cineplex" ref-columns="username" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="FK_a7c2q4gow0pd5wvf5vlnaklk5" unique="false" columns="user_username"/>
+    </table>
     <table name="ScreeningProgram" schema="" catalog="Cineplex" type="TABLE">
       <column name="screeningProgramId" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
       <column name="beginTime" sqlType="TIME" precision="8" scale="0" nullable="true" jdbcType="92"/>
@@ -37,11 +51,24 @@
       <column name="tag" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
       <column name="filmOffice_filmOfficeName" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
       <column name="user_username" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="left_number" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
       <primary-key name="PRIMARY" columns="screeningProgramId"/>
       <foreign-key name="FK_rjchf4di22nli27eagehh7kuc" columns="filmOffice_filmOfficeName" ref-table="FilmOffice" ref-schema="" ref-catalog="Cineplex" ref-columns="filmOfficeName" update-rule="3" delete-rule="3" deferrability="2"/>
       <foreign-key name="FK_t9bmrv0srwj95apgicbcp876i" columns="user_username" ref-table="User" ref-schema="" ref-catalog="Cineplex" ref-columns="username" update-rule="3" delete-rule="3" deferrability="2"/>
+      <exported-key name="FK_gd9tpopyg6pqv3gcwam994xf4" table="Ticket" schema="" catalog="Cineplex" columns="screeningProgram_screeningProgramId"/>
       <index name="FK_rjchf4di22nli27eagehh7kuc" unique="false" columns="filmOffice_filmOfficeName"/>
       <index name="FK_t9bmrv0srwj95apgicbcp876i" unique="false" columns="user_username"/>
+    </table>
+    <table name="Ticket" schema="" catalog="Cineplex" type="TABLE">
+      <column name="ticketId" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="seatNumber" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="screeningProgram_screeningProgramId" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="user_username" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="ticketId"/>
+      <foreign-key name="FK_gd9tpopyg6pqv3gcwam994xf4" columns="screeningProgram_screeningProgramId" ref-table="ScreeningProgram" ref-schema="" ref-catalog="Cineplex" ref-columns="screeningProgramId" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="FK_j10qxbftm1jkwstnrx8eubm0r" columns="user_username" ref-table="User" ref-schema="" ref-catalog="Cineplex" ref-columns="username" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="FK_gd9tpopyg6pqv3gcwam994xf4" unique="false" columns="screeningProgram_screeningProgramId"/>
+      <index name="FK_j10qxbftm1jkwstnrx8eubm0r" unique="false" columns="user_username"/>
     </table>
     <table name="User" schema="" catalog="Cineplex" type="TABLE">
       <column name="username" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
@@ -49,7 +76,9 @@
       <column name="password" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
       <primary-key name="PRIMARY" columns="username"/>
       <exported-key name="FK_7y88g8jh0i51n791a494re5q5" table="MemberDetail" schema="" catalog="Cineplex" columns="username_username"/>
+      <exported-key name="FK_a7c2q4gow0pd5wvf5vlnaklk5" table="RechargeRecord" schema="" catalog="Cineplex" columns="user_username"/>
       <exported-key name="FK_t9bmrv0srwj95apgicbcp876i" table="ScreeningProgram" schema="" catalog="Cineplex" columns="user_username"/>
+      <exported-key name="FK_j10qxbftm1jkwstnrx8eubm0r" table="Ticket" schema="" catalog="Cineplex" columns="user_username"/>
     </table>
   </data-source>
 </component>

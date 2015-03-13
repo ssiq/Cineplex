@@ -13,4 +13,5 @@ public interface UserManageService {
     public void addMember(User user,MemberDetail memberDetail) throws MyException;
     public MemberDetail getDetail(User user);
     public void changeMemberDetail(MemberDetail memberDetail);
+    public void recharge(String cardNumber, Double money,User user) throws MyException;
 }

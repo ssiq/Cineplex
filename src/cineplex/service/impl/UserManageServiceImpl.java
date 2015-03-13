@@ -1,13 +1,18 @@
 package cineplex.service.impl;
 
+import cineplex.dao.BankAccountDao;
+import cineplex.dao.RechargeRecordDao;
 import cineplex.dao.UserDao;
 import cineplex.exception.MyException;
+import cineplex.model.BankAccount;
 import cineplex.model.MemberDetail;
+import cineplex.model.RechargeRecord;
 import cineplex.model.User;
 import cineplex.service.UserManageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -18,6 +23,12 @@ public class UserManageServiceImpl implements UserManageService{
 
     @Autowired
     private UserDao userDao;
+
+    @Autowired
+    private BankAccountDao bankAccountDao;
+
+    @Autowired
+    private RechargeRecordDao rechargeRecordDao;
 
     @Override
     public User login(String username, String password) {
@@ -64,5 +75,35 @@ public class UserManageServiceImpl implements UserManageService{
     @Override
     public void changeMemberDetail(MemberDetail memberDetail) {
         userDao.updateMemberDetail(memberDetail);
+    }
+
+    @Override
+    public void recharge(String cardNumber, Double money, User user) throws MyException {
+        BankAccount bankAccount=(BankAccount)bankAccountDao.getAccount(cardNumber);
+        if(bankAccount==null)
+        {
+            throw new MyException("该银行账户不存在");
+        }
+
+        if(bankAccount.getBalance()<money)
+        {
+            throw new MyException("该银行账户余额不足");
+        }
+
+        MemberDetail memberDetail=userDao.getDetail(user);
+        if(memberDetail==null)
+        {
+            throw new MyException("用户不存在");
+        }
+
+        bankAccount.setBalance(bankAccount.getBalance()-money);
+        bankAccountDao.update(bankAccount);
+        memberDetail.setMoney(memberDetail.getMoney()+money);
+        userDao.updateMemberDetail(memberDetail);
+        RechargeRecord rechargeRecord=new RechargeRecord();
+        rechargeRecord.setMoney(money);
+        rechargeRecord.setDate(new Date());
+        rechargeRecord.setUser(user);
+        rechargeRecordDao.save(rechargeRecord);
     }
 }

@@ -112,6 +112,14 @@
         <action name="doBuy" class="TicketManageAction" method="buyTicket">
             <result name="success">Success.jsp</result>
         </action>
+
+        <action name="recharge">
+            <result name="success">recharge.jsp</result>
+        </action>
+
+        <action name="doRecharge" class="RechargeAction">
+            <result name="success">Success.jsp</result>
+        </action>
     </package>
 
     <package name="staticfile" namespace="/static" extends="struts-default">
