@@ -21,7 +21,19 @@
       <column name="activity_activityId" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
       <primary-key name="PRIMARY" columns="activityDetailId"/>
       <foreign-key name="FK_laivgtogfoe8b0ipjygudka0b" columns="activity_activityId" ref-table="Activity" ref-schema="" ref-catalog="Cineplex" ref-columns="activityId" update-rule="3" delete-rule="3" deferrability="2"/>
+      <exported-key name="FK_nv5mv41d8sjjdw6079ejqyivf" table="AnswerActivity" schema="" catalog="Cineplex" columns="activityDetail_activityDetailId"/>
       <index name="FK_laivgtogfoe8b0ipjygudka0b" unique="false" columns="activity_activityId"/>
+    </table>
+    <table name="AnswerActivity" schema="" catalog="Cineplex" type="TABLE">
+      <column name="answerActivityId" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="answer" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="activityDetail_activityDetailId" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="user_username" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="answerActivityId"/>
+      <foreign-key name="FK_2hgd9pc8emofw6tvg2lf4ba04" columns="user_username" ref-table="User" ref-schema="" ref-catalog="Cineplex" ref-columns="username" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="FK_nv5mv41d8sjjdw6079ejqyivf" columns="activityDetail_activityDetailId" ref-table="ActivityDetail" ref-schema="" ref-catalog="Cineplex" ref-columns="activityDetailId" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="FK_2hgd9pc8emofw6tvg2lf4ba04" unique="false" columns="user_username"/>
+      <index name="FK_nv5mv41d8sjjdw6079ejqyivf" unique="false" columns="activityDetail_activityDetailId"/>
     </table>
     <table name="BankAccount" schema="" catalog="Cineplex" type="TABLE">
       <column name="cardNumber" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
@@ -91,6 +103,7 @@
       <column name="identity" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
       <column name="password" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
       <primary-key name="PRIMARY" columns="username"/>
+      <exported-key name="FK_2hgd9pc8emofw6tvg2lf4ba04" table="AnswerActivity" schema="" catalog="Cineplex" columns="user_username"/>
       <exported-key name="FK_7y88g8jh0i51n791a494re5q5" table="MemberDetail" schema="" catalog="Cineplex" columns="username_username"/>
       <exported-key name="FK_a7c2q4gow0pd5wvf5vlnaklk5" table="RechargeRecord" schema="" catalog="Cineplex" columns="user_username"/>
       <exported-key name="FK_t9bmrv0srwj95apgicbcp876i" table="ScreeningProgram" schema="" catalog="Cineplex" columns="user_username"/>

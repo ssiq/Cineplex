@@ -153,6 +153,7 @@
 
         <action name="doAnswerActivity" class="DoAnswerActivityAction">
             <result name="success">Success.jsp</result>
+            <result name="input">./../error.jsp</result>
         </action>
     </package>
 

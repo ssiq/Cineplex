@@ -25,6 +25,11 @@ public class DisplayQuestionTag extends TagSupport {
             question_sb.append(i);
             question_sb.append(":");
             question_sb.append(activityDetail.getQuestion());
+            question_sb.append("<input type=\"hidden\" name=\"activityDetailIdList[");
+            question_sb.append(i);
+            question_sb.append("]\" value=\"");
+            question_sb.append(activityDetail.getActivityDetailId());
+            question_sb.append("\"/>");
             sb.append(BaseDisplay.wrapWithDiv(question_sb.toString()));
             StringBuilder answer_sb=new StringBuilder();
             String answer[]=activityDetail.getAnswer().split(";");

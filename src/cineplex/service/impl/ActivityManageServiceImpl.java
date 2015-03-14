@@ -39,4 +39,9 @@ public class ActivityManageServiceImpl implements ActivityManageService {
         activity.setActivityId(activityId);
         return activityDao.getActivityDetailbyActivity(activity);
     }
+
+    @Override
+    public void setAnswer(List list) {
+        activityDao.saveList(list);
+    }
 }

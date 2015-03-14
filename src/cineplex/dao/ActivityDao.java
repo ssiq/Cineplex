@@ -14,4 +14,5 @@ public interface ActivityDao {
     public List getActivityByFilmName(String filmName);
     public List getActivityDetailbyActivity(Activity activity);
     public List getAllCanDoActivity(User user);
+    public void saveList(List list);
 }

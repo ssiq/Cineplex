@@ -55,4 +55,12 @@ public class ActivityDaoImpl implements ActivityDao{
         query.setParameter(0, user);
         return query.list();
     }
+
+    @Override
+    public void saveList(List list) {
+        for(int i=0;i<list.size();++i)
+        {
+            baseDao.save(list.get(i));
+        }
+    }
 }
