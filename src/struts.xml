@@ -163,6 +163,10 @@
             <result name="success">Success.jsp</result>
             <result name="input">./../error.jsp</result>
         </action>
+
+        <action name="myDetail" class="MyDetailAction">
+            <result name="success">myDetail.jsp</result>
+        </action>
     </package>
 
     <package name="staticfile" namespace="/static" extends="struts-default">

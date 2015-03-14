@@ -10,6 +10,7 @@ import cineplex.service.UserManageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
+import javax.servlet.http.HttpServletRequest;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -35,7 +36,9 @@ public class SeeOneMemberDetailAction extends BaseAction{
         this.username = username;
     }
 
-    public String doGetDetail(User user)
+    public static String doGetDetail(User user,UserManageService userManageService,
+                                     TicketManageService ticketManageService,
+                                     HttpServletRequest request)
     {
         MemberDetail memberDetail=userManageService.getDetail(user);
         List detail=new LinkedList();
@@ -85,6 +88,6 @@ public class SeeOneMemberDetailAction extends BaseAction{
     public String execute()
     {
         User user=userManageService.getUserByUsername(username);
-        return doGetDetail(user);
+        return doGetDetail(user, userManageService, ticketManageService, request);
     }
 }
