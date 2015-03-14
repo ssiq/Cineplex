@@ -4,6 +4,8 @@ import java.sql.Time;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.LinkedList;
+import java.util.List;
 
 /**
  * Created by wlw on 15-3-11.
@@ -61,5 +63,15 @@ public class Utility {
     {
         Date date=new Date();
         return date.toString()+username;
+    }
+
+    public static List generateFromArrayToList(Object a[])
+    {
+        List list=new LinkedList();
+        for(int i=0;i<a.length;++i)
+        {
+            list.add(a[i]);
+        }
+        return list;
     }
 }

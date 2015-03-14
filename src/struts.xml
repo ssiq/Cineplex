@@ -123,6 +123,10 @@
         <action name="seeAllMember" class="SeeAllMemberAction">
             <result name="success">seeAllMember.jsp</result>
         </action>
+
+        <action name="seeOneMemberDetail" class="SeeOneMemberDetailAction">
+            <result name="success">seeOneMemberDetail.jsp</result>
+        </action>
     </package>
 
     <package name="member" namespace="/member" extends="struts-default">

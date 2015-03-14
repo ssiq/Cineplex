@@ -34,9 +34,9 @@ public class SeeAllMemberAction extends BaseAction {
             in_list.add(memberDetail.getSex());
             in_list.add(memberDetail.getMoney());
             in_list.add(memberDetail.getState());
-            in_list.add("<form action=\"\" method=\"post\">" +
-                    "<input type=\"hidden\" value=\""+
-                    memberDetail.getUsername()+
+            in_list.add("<form action=\"seeOneMemberDetail\" method=\"post\">" +
+                    "<input type=\"hidden\" name=\"username\" value=\""+
+                    memberDetail.getUsername().getUsername()+
                     "\"/>" +
                     "<input type=\"submit\" value=\"详情\"/>" +
                     "</form>");

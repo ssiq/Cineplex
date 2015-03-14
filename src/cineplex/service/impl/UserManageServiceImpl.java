@@ -108,7 +108,23 @@ public class UserManageServiceImpl implements UserManageService{
     }
 
     @Override
+    public List getRechargeHistory(User user) {
+        return rechargeRecordDao.find("user", user);
+    }
+
+    @Override
     public List getAllMember() {
         return userDao.allMember();
+    }
+
+    @Override
+    public User getUserByUsername(String username) {
+        List list=(List)userDao.find("username", username);
+        if(list.isEmpty())
+        {
+            return null;
+        }else{
+            return (User)list.get(0);
+        }
     }
 }

@@ -33,6 +33,7 @@ public class RechargeRecordDaoImpl implements RechargeRecordDao {
         Session session = baseDao.getSession();
         String hql="from cineplex.model.RechargeRecord as rr where rr."+colunmName+"=?";
         Query query = session.createQuery(hql);
+        query.setParameter(0, column);
         List list=query.list();
         return list;
     }

@@ -108,4 +108,9 @@ public class TicketManageServiceImpl implements TicketManageService{
             throw new MyException("票不足");
         }
     }
+
+    @Override
+    public List getOnesTicket(User user) {
+        return ticketDao.find("user", user);
+    }
 }
