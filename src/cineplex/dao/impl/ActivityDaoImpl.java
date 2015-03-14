@@ -3,6 +3,7 @@ package cineplex.dao.impl;
 import cineplex.dao.ActivityDao;
 import cineplex.dao.BaseDao;
 import cineplex.model.Activity;
+import cineplex.model.User;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -41,6 +42,17 @@ public class ActivityDaoImpl implements ActivityDao{
         String hql="from cineplex.model.ActivityDetail as ad where ad.activity=?";
         Query query = session.createQuery(hql);
         query.setParameter(0, activity);
+        return query.list();
+    }
+
+    @Override
+    public List getAllCanDoActivity(User user) {
+        Session session = baseDao.getSession();
+        String hql="select distinct ac " +
+                "from cineplex.model.Activity as ac, cineplex.model.Ticket as t,cineplex.model.ScreeningProgram as s " +
+                "where t.user=? and t.screeningProgram=s and ac.filmName=s.filmName";
+        Query query = session.createQuery(hql);
+        query.setParameter(0, user);
         return query.list();
     }
 }

@@ -10,6 +10,7 @@
     <ul>
         <li><a href="/member/buy">购票</a></li>
         <li><a href="/member/recharge">充值</a></li>
+        <li><a href="/member/seeAllActivity">参加活动</a></li>
         <li><a href="/logout">退出</a></li>
     </ul>
 </div>

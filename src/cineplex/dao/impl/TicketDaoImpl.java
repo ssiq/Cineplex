@@ -3,8 +3,12 @@ package cineplex.dao.impl;
 import cineplex.dao.BaseDao;
 import cineplex.dao.TicketDao;
 import cineplex.model.Ticket;
+import org.hibernate.Query;
+import org.hibernate.Session;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
+
+import java.util.List;
 
 /**
  * Created by wlw on 15-3-12.
@@ -18,5 +22,15 @@ public class TicketDaoImpl implements TicketDao {
     @Override
     public void save(Ticket ticket) {
         baseDao.save(ticket);
+    }
+
+    @Override
+    public List find(String name, Object value) {
+        Session session = baseDao.getSession();
+        String hql="from cineplex.model.Ticket as sp where sp."+name+"=?";
+        Query query = session.createQuery(hql);
+        query.setParameter(0, value);
+        List list=query.list();
+        return list;
     }
 }

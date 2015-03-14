@@ -121,7 +121,7 @@
         </action>
     </package>
 
-    <package name="member" namespace="/member" extends="json-default">
+    <package name="member" namespace="/member" extends="struts-default">
         <action name="buy" class="getAllFilmsAction" method="getAllFilmsToBuy">
             <result name="success">buyTicket.jsp</result>
         </action>
@@ -141,6 +141,10 @@
 
         <action name="doRecharge" class="RechargeAction">
             <result name="success">Success.jsp</result>
+        </action>
+
+        <action name="seeAllActivity" class="SeeAllActivityAction">
+            <result name="success">seeAllActivity.jsp</result>
         </action>
     </package>
 

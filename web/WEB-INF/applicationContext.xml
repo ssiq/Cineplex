@@ -62,6 +62,7 @@
     <bean id="ToTicketAction" class="cineplex.action.ToTicketAction"/>
     <bean id="CreateActivityAction" class="cineplex.action.CreateActivityAction"/>
     <bean id="DoAddActivityAction" class="cineplex.action.DoAddActivityAction"/>
+    <bean id="SeeAllActivityAction" class="cineplex.action.SeeAllActivityAction"/>
 
     <!-- 定义 Autowired 自动注入 bean -->
     <bean
