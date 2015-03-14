@@ -103,4 +103,14 @@ public class ScreeningProgramManageServiceImpl implements ScreeningProgramManage
     public List getNowOpenScreeningProgram() {
         return screeningProgramDao.allOpen();
     }
+
+    @Override
+    public List getAll() {
+        return screeningProgramDao.all();
+    }
+
+    @Override
+    public List getAllFilmName() {
+        return screeningProgramDao.allFilmName();
+    }
 }

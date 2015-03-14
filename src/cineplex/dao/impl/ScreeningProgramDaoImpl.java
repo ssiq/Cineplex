@@ -112,4 +112,12 @@ public class ScreeningProgramDaoImpl implements ScreeningProgramDao {
         list.addAll(new_list);
         return list;
     }
+
+    @Override
+    public List allFilmName() {
+        Session session = baseDao.getSession();
+        String hql="select sp.filmName from cineplex.model.ScreeningProgram as sp group by filmName";
+        Query query = session.createQuery(hql);
+        return query.list();
+    }
 }

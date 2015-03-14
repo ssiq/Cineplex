@@ -18,4 +18,6 @@ public interface ScreeningProgramManageService {
     public List getMyScreeningProgramManage(User user);
     public ScreeningProgram getScreeningProgramManageById(Integer screeningProgramId);
     public List getNowOpenScreeningProgram();
+    public List getAll();
+    public List getAllFilmName();
 }

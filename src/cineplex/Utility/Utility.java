@@ -56,4 +56,10 @@ public class Utility {
         double r=price.doubleValue()*number.doubleValue();
         return r*discount;
     }
+
+    public static String generateId(String username)
+    {
+        Date date=new Date();
+        return date.toString()+username;
+    }
 }

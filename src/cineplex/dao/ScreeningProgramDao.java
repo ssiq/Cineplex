@@ -16,4 +16,5 @@ public interface ScreeningProgramDao {
     public List findByUsername(String username);
     public List all();
     public List allOpen();
+    public List allFilmName();
 }

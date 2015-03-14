@@ -60,6 +60,8 @@
     <bean id="RechargeAction" class="cineplex.action.RechargeAction"/>
     <bean id="getAllFilmsAction" class="cineplex.action.getAllFilmsAction"/>
     <bean id="ToTicketAction" class="cineplex.action.ToTicketAction"/>
+    <bean id="CreateActivityAction" class="cineplex.action.CreateActivityAction"/>
+    <bean id="DoAddActivityAction" class="cineplex.action.DoAddActivityAction"/>
 
     <!-- 定义 Autowired 自动注入 bean -->
     <bean

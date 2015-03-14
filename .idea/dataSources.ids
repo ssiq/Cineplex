@@ -7,6 +7,22 @@
     </database-info>
     <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact"/>
     <schema name="" catalog="Cineplex"/>
+    <table name="Activity" schema="" catalog="Cineplex" type="TABLE">
+      <column name="activityId" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="filmName" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="title" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="activityId"/>
+      <exported-key name="FK_laivgtogfoe8b0ipjygudka0b" table="ActivityDetail" schema="" catalog="Cineplex" columns="activity_activityId"/>
+    </table>
+    <table name="ActivityDetail" schema="" catalog="Cineplex" type="TABLE">
+      <column name="activityDetailId" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="answer" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="question" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="activity_activityId" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="activityDetailId"/>
+      <foreign-key name="FK_laivgtogfoe8b0ipjygudka0b" columns="activity_activityId" ref-table="Activity" ref-schema="" ref-catalog="Cineplex" ref-columns="activityId" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="FK_laivgtogfoe8b0ipjygudka0b" unique="false" columns="activity_activityId"/>
+    </table>
     <table name="BankAccount" schema="" catalog="Cineplex" type="TABLE">
       <column name="cardNumber" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
       <column name="balance" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>

@@ -111,6 +111,14 @@
             <result name="success">Success.jsp</result>
             <result name="input">./../error.jsp</result>
         </action>
+
+        <action name="createActivity" class="CreateActivityAction" method="getActivityView">
+            <result name="success">createActivity.jsp</result>
+        </action>
+
+        <action name="doCreateActivity" class="DoAddActivityAction">
+            <result name="success">Success.jsp</result>
+        </action>
     </package>
 
     <package name="member" namespace="/member" extends="json-default">
