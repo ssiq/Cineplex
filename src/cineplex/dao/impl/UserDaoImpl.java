@@ -66,4 +66,9 @@ public class UserDaoImpl implements UserDao{
         List list=query.list();
         return list;
     }
+
+    @Override
+    public List allMember() {
+        return baseDao.getAllList(MemberDetail.class);
+    }
 }

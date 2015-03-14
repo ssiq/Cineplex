@@ -106,4 +106,9 @@ public class UserManageServiceImpl implements UserManageService{
         rechargeRecord.setUser(user);
         rechargeRecordDao.save(rechargeRecord);
     }
+
+    @Override
+    public List getAllMember() {
+        return userDao.allMember();
+    }
 }

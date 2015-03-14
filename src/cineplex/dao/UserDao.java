@@ -15,4 +15,5 @@ public interface UserDao{
     public MemberDetail getDetail(User user);
     public void updateMemberDetail(MemberDetail memberDetail);
     public List findMemberDetail(String column, Object value);
+    public List allMember();
 }
