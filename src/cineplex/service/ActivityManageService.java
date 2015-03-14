@@ -12,4 +12,5 @@ import java.util.List;
 public interface ActivityManageService {
     public void addActivity(Activity activity,List activityDetailList);
     public List getAllIcanDoActivity(User user);
+    public List getActivityDetailByActivityId(String activityId);
 }

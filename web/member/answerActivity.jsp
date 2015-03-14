@@ -14,8 +14,9 @@
 </head>
 <body>
 <jsp:include page="/navigater/member_navigater.jsp"/>
-<form method="post">
-
+<form method="post" action="doAnswerActivity">
+    <MyTag:displayQuestion/>
+    <input type="submit" value="提交"/>
 </form>
 </body>
 </html>

@@ -63,6 +63,8 @@
     <bean id="CreateActivityAction" class="cineplex.action.CreateActivityAction"/>
     <bean id="DoAddActivityAction" class="cineplex.action.DoAddActivityAction"/>
     <bean id="SeeAllActivityAction" class="cineplex.action.SeeAllActivityAction"/>
+    <bean id="AnswerActivityAction" class="cineplex.action.AnswerActivityAction"/>
+    <bean id="DoAnswerActivityAction" class="cineplex.action.DoAnswerActivityAction"/>
 
     <!-- 定义 Autowired 自动注入 bean -->
     <bean

@@ -69,4 +69,10 @@
             <type>java.lang.String</type>
         </attribute>
     </tag>
+
+    <tag>
+        <name>displayQuestion</name>
+        <tag-class>cineplex.tags.DisplayQuestionTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
 </taglib>

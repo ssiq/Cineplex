@@ -121,4 +121,8 @@ public class BaseDisplay {
         }
         return displayScreeningProgramTable(list, "你没有提交过计划", new StateExtraStr());
     }
+
+    public static String wrapWithDiv(String s){
+        return "<div>"+s+"</div>";
+    }
 }

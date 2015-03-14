@@ -146,6 +146,14 @@
         <action name="seeAllActivity" class="SeeAllActivityAction">
             <result name="success">seeAllActivity.jsp</result>
         </action>
+        
+        <action name="answerActivity" class="AnswerActivityAction">
+            <result name="success">answerActivity.jsp</result>
+        </action>
+
+        <action name="doAnswerActivity" class="DoAnswerActivityAction">
+            <result name="success">Success.jsp</result>
+        </action>
     </package>
 
     <package name="staticfile" namespace="/static" extends="struts-default">

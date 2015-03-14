@@ -32,4 +32,11 @@ public class ActivityManageServiceImpl implements ActivityManageService {
     public List getAllIcanDoActivity(User user) {
         return activityDao.getAllCanDoActivity(user);
     }
+
+    @Override
+    public List getActivityDetailByActivityId(String activityId) {
+        Activity activity=new Activity();
+        activity.setActivityId(activityId);
+        return activityDao.getActivityDetailbyActivity(activity);
+    }
 }
