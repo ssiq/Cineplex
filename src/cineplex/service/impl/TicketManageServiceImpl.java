@@ -49,6 +49,7 @@ public class TicketManageServiceImpl implements TicketManageService{
         User user=memberDetail.getUsername();
         if(price<=memberDetail.getMoney()&&leftnumber>=number) {
             memberDetail.setMoney(memberDetail.getMoney() - price);
+            memberDetail.setCredits(memberDetail.getCredits()+Utility.generateCreditFromMoney(price));
             userDao.updateMemberDetail(memberDetail);
             StringBuilder message=new StringBuilder("购票成功座位号是:"+leftnumber);
             List ticketList=new LinkedList();

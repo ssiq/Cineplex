@@ -14,6 +14,7 @@ public class Activity {
     private String activityId;
     private String filmName;
     private String title;
+    private Boolean hasEnd;
 
     public String getActivityId() {
         return activityId;
@@ -37,5 +38,18 @@ public class Activity {
 
     public void setTitle(String title) {
         this.title = title;
+    }
+
+    public Boolean getHasEnd() {
+        return hasEnd;
+    }
+
+    public void setHasEnd(Boolean hasEnd) {
+        this.hasEnd = hasEnd;
+    }
+
+    public Activity()
+    {
+        hasEnd=false;
     }
 }

@@ -15,4 +15,5 @@ public interface ActivityDao {
     public List getActivityDetailbyActivity(Activity activity);
     public List getAllCanDoActivity(User user);
     public void saveList(List list);
+    public List getBestAnswerOneActivity(Activity activity);
 }

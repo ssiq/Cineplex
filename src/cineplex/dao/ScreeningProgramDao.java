@@ -17,4 +17,5 @@ public interface ScreeningProgramDao {
     public List all();
     public List allOpen();
     public List allFilmName();
+    public List allCanSummaryActivity();
 }

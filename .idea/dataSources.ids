@@ -11,6 +11,7 @@
       <column name="activityId" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
       <column name="filmName" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
       <column name="title" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="hasEnd" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6"/>
       <primary-key name="PRIMARY" columns="activityId"/>
       <exported-key name="FK_laivgtogfoe8b0ipjygudka0b" table="ActivityDetail" schema="" catalog="Cineplex" columns="activity_activityId"/>
     </table>
@@ -55,6 +56,8 @@
       <column name="date" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93"/>
       <column name="money" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
       <column name="state" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="lastStateChangeDate" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <column name="credits" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
       <primary-key name="PRIMARY" columns="username_username"/>
       <foreign-key name="FK_7y88g8jh0i51n791a494re5q5" columns="username_username" ref-table="User" ref-schema="" ref-catalog="Cineplex" ref-columns="username" update-rule="3" delete-rule="3" deferrability="2"/>
       <index name="FK_7y88g8jh0i51n791a494re5q5" unique="false" columns="username_username"/>

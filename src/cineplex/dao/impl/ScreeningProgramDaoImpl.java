@@ -120,4 +120,14 @@ public class ScreeningProgramDaoImpl implements ScreeningProgramDao {
         Query query = session.createQuery(hql);
         return query.list();
     }
+
+    @Override
+    public List allCanSummaryActivity() {
+        Session session = baseDao.getSession();
+        String hql= "from cineplex.model.Activity as ac " +
+                "where not ac.hasEnd and ac.filmName in (select filmName from cineplex.model.ScreeningProgram as sp group by filmName having all(date)<?)";
+        Query query = session.createQuery(hql);
+        query.setParameter(0, new Date());
+        return query.list();
+    }
 }

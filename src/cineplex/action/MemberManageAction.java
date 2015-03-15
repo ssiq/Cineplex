@@ -80,6 +80,8 @@ public class MemberManageAction extends BaseAction{
             memberDetail.setCardnumber(cardnumber);
             memberDetail.setUsername(user);
             memberDetail.setDate(Utility.getNowDate());
+            memberDetail.setLastStateChangeDate(Utility.getNowDate());
+            memberDetail.setCredits(0);
             memberDetail.setState(MemberDetail.ACTIVE);
             userManageService.addMember(user, memberDetail);
             request.setAttribute("mess", "你的卡号是"+cardnumber);

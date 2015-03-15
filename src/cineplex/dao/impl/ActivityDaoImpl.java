@@ -63,4 +63,15 @@ public class ActivityDaoImpl implements ActivityDao{
             baseDao.save(list.get(i));
         }
     }
+
+    @Override
+    public List getBestAnswerOneActivity(Activity activity) {
+        Session session = baseDao.getSession();
+        session.createSQLQuery("SELECT " +
+                "from (SELECT  in1.d as d,in1.a as a " +
+                "from (SELECT activityDetail_activityDetailId as d,answer as a,COUNT(user_username) as c from AnswerActivity as a WHERE  GROUP BY activityDetail_activityDetailId,answer) as in1," +
+                "(SELECT activityDetail_activityDetailId as d,answer as a,COUNT(user_username) as c from AnswerActivity as a GROUP BY activityDetail_activityDetailId,answer) as in2 " +
+                "WHERE in1.d=in2.d and in1.c>=in2.c) as ba,AnswerActivity aa");
+        return null;
+    }
 }

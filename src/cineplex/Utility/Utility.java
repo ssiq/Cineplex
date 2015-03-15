@@ -74,4 +74,10 @@ public class Utility {
         }
         return list;
     }
+
+    public static Integer generateCreditFromMoney(Double money)
+    {
+        Integer m=money.intValue();
+        return m/10;
+    }
 }

@@ -9,6 +9,8 @@ import org.hibernate.Session;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
+import java.util.Calendar;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -75,5 +77,17 @@ public class UserDaoImpl implements UserDao{
     @Override
     public void updateUser(User user) {
         baseDao.update(user);
+    }
+
+    @Override
+    public List findOverOneYearMember() {
+        Session session = baseDao.getSession();
+        String hql="from cineplex.model.MemberDetail as m where m.lastStateChangeDate<?";
+        Query query = session.createQuery(hql);
+        Calendar calendar=Calendar.getInstance();
+        calendar.set(calendar.get(Calendar.YEAR)-1, calendar.get(Calendar.MONTH), calendar.get(Calendar.DAY_OF_MONTH));
+        query.setParameter(0, calendar.getTime());
+        List list=query.list();
+        return list;
     }
 }

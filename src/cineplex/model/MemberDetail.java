@@ -21,6 +21,8 @@ public class MemberDetail implements Serializable{
     private Double money;
     private Date date;
     private String state;
+    private Date lastStateChangeDate;
+    private Integer credits;
 
     public User getUsername() {
         return username;
@@ -86,7 +88,25 @@ public class MemberDetail implements Serializable{
         this.state = state;
     }
 
+    public Date getLastStateChangeDate() {
+        return lastStateChangeDate;
+    }
+
+    public void setLastStateChangeDate(Date lastStateChangeDate) {
+        this.lastStateChangeDate = lastStateChangeDate;
+    }
+
+    public Integer getCredits() {
+        return credits;
+    }
+
+    public void setCredits(Integer credits) {
+        this.credits = credits;
+    }
+
     public static final String ACTIVE="active";
+    //暂停
     public static final String SLEEP="sleep";
+    //停止
     public static final String STOP="stop";
 }

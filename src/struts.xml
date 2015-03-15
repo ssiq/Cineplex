@@ -64,6 +64,10 @@
         <action name="refuseScreeningProgram" class="checkScreeningProgramAction" method="refuse">
             <result name="success" type="json"></result>
         </action>
+
+        <action name="seeAllMonthAnalyse" class="SeeAllMemberAction">
+            <result name="success">seeMonthAnalyse.jsp</result>
+        </action>
     </package>
 
     <package name="waiter" namespace="/waiter" extends="struts-default">
