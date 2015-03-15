@@ -180,6 +180,10 @@
             <result name="success">Success.jsp</result>
             <result name="input">changeDetail.jsp</result>
         </action>
+
+        <action name="cancel" class="CancelAction">
+            <result name="success">Success.jsp</result>
+        </action>
     </package>
 
     <package name="staticfile" namespace="/static" extends="struts-default">

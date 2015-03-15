@@ -72,6 +72,7 @@
     <bean id="MyDetailAction" class="cineplex.action.MyDetailAction"/>
     <bean id="ChangeMyDetailAction" class="cineplex.action.ChangeMyDetailAction"/>
     <bean id="SeeAllMonthAnalyseAction" class="cineplex.action.SeeAllMonthAnalyseAction"/>
+    <bean id="CancelAction" class="cineplex.action.CancelAction"/>
 
     <!-- 定义 Autowired 自动注入 bean -->
     <bean

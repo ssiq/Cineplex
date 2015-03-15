@@ -109,4 +109,6 @@ public class MemberDetail implements Serializable{
     public static final String SLEEP="sleep";
     //停止
     public static final String STOP="stop";
+    //取消
+    public static final String CANCEL="cancel";
 }
