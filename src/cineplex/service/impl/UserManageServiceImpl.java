@@ -127,4 +127,9 @@ public class UserManageServiceImpl implements UserManageService{
             return (User)list.get(0);
         }
     }
+
+    @Override
+    public void changeUser(User user) {
+        userDao.updateUser(user);
+    }
 }

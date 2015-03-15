@@ -19,4 +19,5 @@ public interface UserManageService {
     public List getRechargeHistory(User user);
     public List getAllMember();
     public User getUserByUsername(String username);
+    public void changeUser(User user);
 }

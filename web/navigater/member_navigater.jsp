@@ -12,6 +12,7 @@
         <li><a href="/member/recharge">充值</a></li>
         <li><a href="/member/seeAllActivity">参加活动</a></li>
         <li><a href="/member/myDetail">个人信息</a></li>
+        <li><a href="/member/changeMyDetail">修改个人信息</a></li>
         <li><a href="/logout">退出</a></li>
     </ul>
 </div>
