@@ -2,7 +2,9 @@ package cineplex.tags;
 
 import cineplex.model.ScreeningProgram;
 
+import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Created by wlw on 15-3-7.
@@ -124,5 +126,23 @@ public class BaseDisplay {
 
     public static String wrapWithDiv(String s){
         return "<div>"+s+"</div>";
+    }
+
+    public static String generateMapInTable(Map map)
+    {
+        Iterator iterator=map.keySet().iterator();
+        StringBuilder sb=new StringBuilder();
+        sb.append("<table>");
+        while (iterator.hasNext())
+        {
+            StringBuilder insb=new StringBuilder();
+            String name=(String)iterator.next();
+            String val=map.get(name).toString();
+            insb.append(BaseDisplay.wrapWithTh(name));
+            insb.append(BaseDisplay.wrapWithTd(val));
+            sb.append(BaseDisplay.wrapWithTr(insb.toString()));
+        }
+        sb.append("</table>");
+        return sb.toString();
     }
 }

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<taglib xmlns="http://java.sun.com/xml/ns/javaee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
+        version="2.1">
+
+    <tlib-version>1.0</tlib-version>
+    <short-name>MyTag</short-name>
+    <uri>http://mycompany.com</uri>
+
+    <!-- Invoke 'Generate' action to add tags or functions -->
+    <tag>
+        <name>displayErrorMessage</name>
+        <tag-class>cineplex.tags.DisplayErrorMessageTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+
+    <tag>
+        <name>displaySelcet</name>
+        <tag-class>cineplex.tags.DisplaySelectTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+
+    <tag>
+        <name>displayUncheckedScreeningProgram</name>
+        <tag-class>cineplex.tags.DisplayUncheckedScreeningProgram</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+
+    <tag>
+        <name>displayMyScreeningProgram</name>
+        <tag-class>cineplex.tags.DisplayMyScreeningProgramTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+
+    <tag>
+        <name>displayTableTitle</name>
+        <tag-class>cineplex.tags.DisplayTitle</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>titleName</name>
+            <required>true</required>
+            <rtexprvalue>false</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+    </tag>
+
+    <tag>
+        <name>displayTableBody</name>
+        <tag-class>cineplex.tags.DisplayTableBody</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>bodyName</name>
+            <required>true</required>
+            <rtexprvalue>false</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+    </tag>
+
+    <tag>
+        <name>displayTable</name>
+        <tag-class>cineplex.tags.DisplayTable</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>tableName</name>
+            <required>true</required>
+            <rtexprvalue>false</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+    </tag>
+
+    <tag>
+        <name>displayQuestion</name>
+        <tag-class>cineplex.tags.DisplayQuestionTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+
+    <tag>
+        <name>displayMap</name>
+        <tag-class>cineplex.tags.DisplayMapInTable</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>name</name>
+            <required>true</required>
+            <rtexprvalue>false</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+    </tag>
+</taglib>

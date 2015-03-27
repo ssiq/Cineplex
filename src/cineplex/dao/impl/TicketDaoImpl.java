@@ -33,4 +33,12 @@ public class TicketDaoImpl implements TicketDao {
         List list=query.list();
         return list;
     }
+
+    @Override
+    public List allComsume() {
+        Session session = baseDao.getSession();
+        String hql="select sum(sp.screeningProgram.price) from cineplex.model.Ticket as sp group by sp.user";
+        Query query = session.createQuery(hql);
+        return query.list();
+    }
 }

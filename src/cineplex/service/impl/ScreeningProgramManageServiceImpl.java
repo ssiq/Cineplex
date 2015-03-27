@@ -21,6 +21,7 @@ public class ScreeningProgramManageServiceImpl implements ScreeningProgramManage
 
     @Override
     public boolean addScreeningProgram(ScreeningProgram screeningProgram) {
+        screeningProgram.setCard_buy_user(0);
         if(screeningProgramDao.findJoinScreenProgram(screeningProgram).isEmpty())
         {
             screeningProgramDao.save(screeningProgram);

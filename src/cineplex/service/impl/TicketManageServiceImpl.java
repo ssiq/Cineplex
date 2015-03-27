@@ -1,18 +1,17 @@
 package cineplex.service.impl;
 
 import cineplex.Utility.Utility;
+import cineplex.dao.NumberCountPerDayDao;
 import cineplex.dao.TicketDao;
 import cineplex.dao.UserDao;
 import cineplex.exception.MyException;
-import cineplex.model.MemberDetail;
-import cineplex.model.ScreeningProgram;
-import cineplex.model.Ticket;
-import cineplex.model.User;
+import cineplex.model.*;
 import cineplex.service.ScreeningProgramManageService;
 import cineplex.service.TicketManageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Date;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -23,13 +22,16 @@ import java.util.List;
 public class TicketManageServiceImpl implements TicketManageService{
 
     @Autowired
-    UserDao userDao;
+    private UserDao userDao;
 
     @Autowired
-    ScreeningProgramManageService screeningProgramManageService;
+    private ScreeningProgramManageService screeningProgramManageService;
 
     @Autowired
-    TicketDao ticketDao;
+    private TicketDao ticketDao;
+
+    @Autowired
+    private NumberCountPerDayDao numberCountPerDayDao;
 
     private Ticket generateTicket(User user,ScreeningProgram screeningProgram, Integer seatId)
     {
@@ -61,11 +63,14 @@ public class TicketManageServiceImpl implements TicketManageService{
                 ticketList.add(ticket);
             }
             screeningProgram.setLeft_number(leftnumber-number);
+            screeningProgram.setCard_buy_user(screeningProgram.getCard_buy_user()+number);
             screeningProgramManageService.changeScreeningProgram(screeningProgram);
             for(int i=0;i<ticketList.size();++i)
             {
                 ticketDao.save((Ticket)ticketList.get(i));
             }
+            Date date=screeningProgram.getDate();
+            numberCountPerDayDao.addCount(date, number);
             return message.toString();
         }else if (leftnumber<number){
             throw new MyException("票不足，只有"+leftnumber+"张");
@@ -104,6 +109,8 @@ public class TicketManageServiceImpl implements TicketManageService{
             }
             screeningProgram.setLeft_number(leftnumber-number);
             screeningProgramManageService.changeScreeningProgram(screeningProgram);
+            Date date=screeningProgram.getDate();
+            numberCountPerDayDao.addCount(date, number);
             return message.toString();
         }else{
             throw new MyException("票不足");
@@ -113,5 +120,13 @@ public class TicketManageServiceImpl implements TicketManageService{
     @Override
     public List getOnesTicket(User user) {
         return ticketDao.find("user", user);
+    }
+
+    @Override
+    public List getOneMonthNumberPerday(Date month) {
+        Date begin=Utility.monthBegin(month);
+        Date end=Utility.monthEnd(month);
+        List list=numberCountPerDayDao.oneTimeSegmentNumberCount(begin,end);
+        return list;
     }
 }

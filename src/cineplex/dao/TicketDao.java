@@ -10,4 +10,5 @@ import java.util.List;
 public interface TicketDao {
     public void save(Ticket ticket);
     public List find(String name, Object value);
+    public List allComsume();
 }

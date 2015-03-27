@@ -33,6 +33,7 @@ public class ScreeningProgram implements Serializable {
     @ManyToOne(targetEntity=FilmOffice.class,cascade=CascadeType.ALL, optional=false)
     private FilmOffice filmOffice;
     private Integer left_number;
+    private Integer card_buy_user;
 
     public Integer getScreeningProgramId() {
         return screeningProgramId;
@@ -120,6 +121,14 @@ public class ScreeningProgram implements Serializable {
 
     public void setLeft_number(Integer left_number) {
         this.left_number = left_number;
+    }
+
+    public Integer getCard_buy_user() {
+        return card_buy_user;
+    }
+
+    public void setCard_buy_user(Integer card_buy_user) {
+        this.card_buy_user = card_buy_user;
     }
 
     public final static String WAIT="wait";

@@ -80,4 +80,48 @@ public class Utility {
         Integer m=money.intValue();
         return m/10;
     }
+
+    public static Date getNowMonth()
+    {
+        Calendar calendar=Calendar.getInstance();
+        int month=calendar.get(Calendar.MONTH)-1;
+        if(month<0)
+        {
+            month=11;
+        }
+        calendar.set(calendar.get(Calendar.YEAR), month,0);
+        return calendar.getTime();
+    }
+
+    public static Date getMonth(String year,String month)
+    {
+        Calendar calendar=Calendar.getInstance();
+        calendar.set(Integer.parseInt(year),Integer.parseInt(month),0);
+        return calendar.getTime();
+    }
+
+    public static String generateAnalyseName(Date date)
+    {
+        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM");
+        return format.format(date);
+    }
+
+    public static Date monthBegin(Date date)
+    {
+        Calendar calendar=Calendar.getInstance();
+        calendar.set(calendar.get(Calendar.YEAR),calendar.get(Calendar.MONTH),0);
+        return calendar.getTime();
+    }
+
+    public static Date monthEnd(Date date)
+    {
+        Calendar calendar=Calendar.getInstance();
+        int month=calendar.get(Calendar.MONTH)+1;
+        if(month>11)
+        {
+            month=0;
+        }
+        calendar.set(calendar.get(Calendar.YEAR),month,0);
+        return calendar.getTime();
+    }
 }

@@ -18,4 +18,5 @@ public interface UserDao{
     public List allMember();
     public void updateUser(User user);
     public List findOverOneYearMember();
+    public List findAnalyse(String columnName);
 }

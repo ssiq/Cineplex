@@ -90,4 +90,12 @@ public class UserDaoImpl implements UserDao{
         List list=query.list();
         return list;
     }
+
+    @Override
+    public List findAnalyse(String columnName) {
+        Session session = baseDao.getSession();
+        String hql="select new cineplex.timerTask.Percent("+columnName+",count(m.username)) from cineplex.model.MemberDetail as m group by "+columnName;
+        Query query = session.createQuery(hql);
+        return query.list();
+    }
 }
