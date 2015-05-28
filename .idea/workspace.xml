@@ -5,297 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4375db0f-0749-4805-b2e3-75329093b1ec" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/model/Activity.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/model/Activity.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/dao/ActivityDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/dao/ActivityDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/dao/impl/ActivityDaoImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/dao/impl/ActivityDaoImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/model/ActivityDetail.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/model/ActivityDetail.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/service/ActivityManageService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/service/ActivityManageService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/service/impl/ActivityManageServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/service/impl/ActivityManageServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/action/AddFilmOfficeAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/action/AddFilmOfficeAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/action/AllFilmOfficeAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/action/AllFilmOfficeAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/model/AnswerActivity.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/model/AnswerActivity.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/action/AnswerActivityAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/action/AnswerActivityAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/model/BankAccount.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/model/BankAccount.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/dao/BankAccountDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/dao/BankAccountDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/dao/impl/BankAccountDaoImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/dao/impl/BankAccountDaoImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/action/BaseAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/action/BaseAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/dao/BaseDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/dao/BaseDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/dao/impl/BaseDaoImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/dao/impl/BaseDaoImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/tags/BaseDisplay$DefaultExtraStr.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/tags/BaseDisplay$DefaultExtraStr.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/tags/BaseDisplay$StateExtraStr.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/tags/BaseDisplay$StateExtraStr.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/tags/BaseDisplay.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/tags/BaseDisplay.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/action/BuyTicketAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/action/BuyTicketAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/action/ChangeMyDetailAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/action/ChangeMyDetailAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/action/CheckScreeningProgramAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/action/CheckScreeningProgramAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/action/CreateActivityAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/action/CreateActivityAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/timerTask/DayTask.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/timerTask/DayTask.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/tags/DisplayErrorMessageTag.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/tags/DisplayErrorMessageTag.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/tags/DisplayMyScreeningProgramTag.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/tags/DisplayMyScreeningProgramTag.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/tags/DisplayQuestionTag.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/tags/DisplayQuestionTag.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/tags/DisplaySelectTag.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/tags/DisplaySelectTag.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/tags/DisplayTable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/tags/DisplayTable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/tags/DisplayTableBody.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/tags/DisplayTableBody.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/tags/DisplayTitle.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/tags/DisplayTitle.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/tags/DisplayUncheckedScreeningProgram.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/tags/DisplayUncheckedScreeningProgram.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/action/DoAddActivityAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/action/DoAddActivityAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/action/DoAnswerActivityAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/action/DoAnswerActivityAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/action/ExtraList.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/action/ExtraList.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/model/FilmOffice.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/model/FilmOffice.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/dao/FilmOfficeDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/dao/FilmOfficeDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/dao/impl/FilmOfficeDaoImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/dao/impl/FilmOfficeDaoImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/service/FilmOfficeManageService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/service/FilmOfficeManageService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/service/impl/FilmOfficeManageServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/service/impl/FilmOfficeManageServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/tags/GetExtra.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/tags/GetExtra.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/action/LoginAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/action/LoginAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/action/LoginView.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/action/LoginView.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/action/LogoutAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/action/LogoutAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/action/ManageScreenProgramAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/action/ManageScreenProgramAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/model/MemberDetail.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/model/MemberDetail.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/action/MemberManageAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/action/MemberManageAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/action/MyDetailAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/action/MyDetailAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/exception/MyException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/exception/MyException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/exception/NotEnoughMoney.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/exception/NotEnoughMoney.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/action/RechargeAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/action/RechargeAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/model/RechargeRecord.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/model/RechargeRecord.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/dao/RechargeRecordDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/dao/RechargeRecordDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/dao/impl/RechargeRecordDaoImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/dao/impl/RechargeRecordDaoImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/model/ScreeningProgram.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/model/ScreeningProgram.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/dao/ScreeningProgramDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/dao/ScreeningProgramDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/dao/impl/ScreeningProgramDaoImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/dao/impl/ScreeningProgramDaoImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/service/ScreeningProgramManageService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/service/ScreeningProgramManageService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/service/impl/ScreeningProgramManageServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/service/impl/ScreeningProgramManageServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/action/SeeAllActivityAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/action/SeeAllActivityAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/action/SeeAllMemberAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/action/SeeAllMemberAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/action/SeeAllMonthAnalyseAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/action/SeeAllMonthAnalyseAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/action/SeeOneMemberDetailAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/action/SeeOneMemberDetailAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/action/SeeScreeningProgramStatusAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/action/SeeScreeningProgramStatusAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/action/SellTicketAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/action/SellTicketAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/model/Ticket.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/model/Ticket.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/dao/TicketDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/dao/TicketDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/dao/impl/TicketDaoImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/dao/impl/TicketDaoImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/service/TicketManageService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/service/TicketManageService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/service/impl/TicketManageServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/service/impl/TicketManageServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/action/ToTicketAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/action/ToTicketAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/model/User.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/model/User.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/dao/UserDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/dao/UserDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/dao/impl/UserDaoImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/dao/impl/UserDaoImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/service/UserManageService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/service/UserManageService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/service/impl/UserManageServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/service/impl/UserManageServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/Utility/Utility.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/Utility/Utility.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/action/WaiterManageAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/action/WaiterManageAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/lib/antlr-2.7.7.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/lib/aopalliance-1.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/lib/asm-commons.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/lib/asm-tree.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/lib/asm.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/lib/aspectjweaver-1.6.11.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/lib/commons-fileupload.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/lib/commons-io.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/lib/commons-lang.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/lib/commons-logging-1.1.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/lib/dom4j-1.6.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/lib/freemarker.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/action/getAllFilmsAction$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/action/getAllFilmsAction$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/action/getAllFilmsAction$buyExtra.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/action/getAllFilmsAction$buyExtra.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/action/getAllFilmsAction$sellExtra.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/action/getAllFilmsAction$sellExtra.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/action/getAllFilmsAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/action/getAllFilmsAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/lib/hibernate-commons-annotations-4.0.2.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/lib/hibernate-core-4.2.2.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/lib/jandex-1.1.0.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/lib/javassist-3.15.0-GA.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/lib/javassist.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/lib/jboss-logging-3.1.0.GA.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/lib/jboss-logging-annotations-1.2.0.Beta1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/lib/jboss-transaction-api_1.1_spec-1.0.1.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/lib/ognl.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/lib/spring-aop-4.1.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/lib/spring-aspects-4.1.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/lib/spring-beans-4.1.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/lib/spring-context-4.1.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/lib/spring-context-support-4.1.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/lib/spring-core-4.1.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/lib/spring-expression-4.1.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/lib/spring-instrument-4.1.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/lib/spring-instrument-tomcat-4.1.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/lib/spring-jdbc-4.1.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/lib/spring-jms-4.1.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/lib/spring-messaging-4.1.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/lib/spring-orm-4.1.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/lib/spring-oxm-4.1.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/lib/spring-test-4.1.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/lib/spring-tx-4.1.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/lib/spring-web-4.1.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/lib/spring-webmvc-4.1.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/lib/spring-webmvc-portlet-4.1.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/lib/spring-websocket-4.1.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/lib/struts2-core.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/lib/struts2-dojo-plugin-2.3.20.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/lib/struts2-json-plugin-2.3.20.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/lib/struts2-spring-plugin-2.3.20.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/lib/xwork-core.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cineplex/model/Analyse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cineplex/dao/AnalyseDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cineplex/dao/impl/AnalyseDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/static/js/CheckSP.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cineplex/tags/DisplayMapInTable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cineplex/tags/DisplayMapsInTable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cineplex/action/DoAnalyseAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cineplex/model/FilmOfficeDayCount.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cineplex/model/FilmOfficeMonthCount.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cineplex/timerTask/MonthTask.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cineplex/model/NumberCountPerDay.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cineplex/dao/NumberCountPerDayDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cineplex/dao/impl/NumberCountPerDayDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cineplex/timerTask/Percent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/waiter/ScreeningProgramInput.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cineplex/action/SeeAnalyseAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/member/Success.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/waiter/Success.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/static/js/addActivity.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/manager/addFilmOffice.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/waiter/addMember.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/waiter/addScreeningProgram.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/manager/addSuccess.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/manager/addWaiter.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/member/answerActivity.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/applicationContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/static/css/base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/member/buyTicket.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/action/cardnumber" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/action/cardnumber" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/member/changeDetail.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/waiter/changeScreeningProgram.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/manager/checkScreeningProgramAction.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/waiter/createActivity.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/dispatcher-servlet.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/error.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/waiter/getMyScreeningProgram.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/base/header.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/static/js/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/user/login.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/user/manager_logined.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/navigater/manager_navigater.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/user/memberDetail.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/user/member_logined.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/navigater/member_navigater.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/manager/monthAnalyse.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/member/myDetail.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/tlds/mytaglib.tld" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/member/recharge.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/member/seeAllActivity.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/waiter/seeAllMember.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/manager/seeAnalyse.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/manager/seeMonthAnalyse.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/waiter/seeOneMemberDetail.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/waiter/sellTicket.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/struts.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Cineplex/struts.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/user/success_logout.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/member/toBuyTicket.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/waiter/toSellTicket.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/user/waiter_logined.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/navigater/waiter_navigater.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cineplex/tags/BaseDisplay.java" afterPath="$PROJECT_DIR$/src/cineplex/tags/BaseDisplay.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cineplex/model/ScreeningProgram.java" afterPath="$PROJECT_DIR$/src/cineplex/model/ScreeningProgram.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cineplex/service/impl/ScreeningProgramManageServiceImpl.java" afterPath="$PROJECT_DIR$/src/cineplex/service/impl/ScreeningProgramManageServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cineplex/dao/TicketDao.java" afterPath="$PROJECT_DIR$/src/cineplex/dao/TicketDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cineplex/dao/impl/TicketDaoImpl.java" afterPath="$PROJECT_DIR$/src/cineplex/dao/impl/TicketDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cineplex/service/TicketManageService.java" afterPath="$PROJECT_DIR$/src/cineplex/service/TicketManageService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/tags/BaseDisplay$DefaultExtraStr.class" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/tags/BaseDisplay$DefaultExtraStr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Cineplex/cineplex/tags/BaseDisplay$DefaultExtraStr.class" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/tags/BaseDisplay$DefaultExtraStr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/tags/BaseDisplay$StateExtraStr.class" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/tags/BaseDisplay$StateExtraStr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Cineplex/cineplex/tags/BaseDisplay$StateExtraStr.class" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/tags/BaseDisplay$StateExtraStr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/tags/BaseDisplay.class" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/tags/BaseDisplay.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Cineplex/cineplex/tags/BaseDisplay.class" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/tags/BaseDisplay.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/timerTask/DayTask.class" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/timerTask/DayTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Cineplex/cineplex/timerTask/DayTask.class" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/timerTask/DayTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/service/TicketManageService.class" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/service/TicketManageService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Cineplex/cineplex/service/TicketManageService.class" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/service/TicketManageService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/service/impl/TicketManageServiceImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/service/impl/TicketManageServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Cineplex/cineplex/service/impl/TicketManageServiceImpl.class" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/service/impl/TicketManageServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/Utility/Utility.class" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/Utility/Utility.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Cineplex/cineplex/Utility/Utility.class" afterPath="$PROJECT_DIR$/out/production/Cineplex/cineplex/Utility/Utility.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cineplex/timerTask/DayTask.java" afterPath="$PROJECT_DIR$/src/cineplex/timerTask/DayTask.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cineplex/service/impl/TicketManageServiceImpl.java" afterPath="$PROJECT_DIR$/src/cineplex/service/impl/TicketManageServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cineplex/dao/UserDao.java" afterPath="$PROJECT_DIR$/src/cineplex/dao/UserDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cineplex/dao/impl/UserDaoImpl.java" afterPath="$PROJECT_DIR$/src/cineplex/dao/impl/UserDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cineplex/Utility/Utility.java" afterPath="$PROJECT_DIR$/src/cineplex/Utility/Utility.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/navigater/manager_navigater.jsp" afterPath="$PROJECT_DIR$/web/navigater/manager_navigater.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/tlds/mytaglib.tld" afterPath="$PROJECT_DIR$/web/tlds/mytaglib.tld" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/struts.xml" afterPath="$PROJECT_DIR$/src/struts.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/manager/addWaiter.jsp" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/manager/addWaiter.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/manager/addWaiter.jsp" afterPath="$PROJECT_DIR$/web/manager/addWaiter.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/action/cardnumber" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/WEB-INF/classes/cineplex/action/cardnumber" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/waiter/createActivity.jsp" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/waiter/createActivity.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/waiter/createActivity.jsp" afterPath="$PROJECT_DIR$/web/waiter/createActivity.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/tlds/mytaglib.tld" afterPath="$PROJECT_DIR$/out/artifacts/Cineplex_war_exploded/tlds/mytaglib.tld" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Cineplex.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -344,54 +76,107 @@
       <file leaf-file-name="MonthTask.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cineplex/timerTask/MonthTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1123" max-vertical-offset="2538">
-              <caret line="50" column="29" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="71" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Utility.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cineplex/Utility/Utility.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1596" max-vertical-offset="2304">
-              <caret line="123" column="58" selection-start-line="123" selection-start-column="58" selection-end-line="123" selection-end-column="58" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="828" max-vertical-offset="2250">
+              <caret line="62" column="23" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NumberCountPerDayDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cineplex/dao/NumberCountPerDayDao.java">
+      <file leaf-file-name="DayTask.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cineplex/timerTask/DayTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
-              <caret line="13" column="63" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="547" max-vertical-offset="1188">
+              <caret line="64" column="24" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="struts.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/struts.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="728" max-vertical-offset="1314">
+              <caret line="76" column="19" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="n#package#0;n#struts#0;n#!!top" expanded="false" />
+                <element signature="n#package#2;n#struts#0;n#!!top" expanded="false" />
+                <element signature="n#package#3;n#struts#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DoAnalyseAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cineplex/action/DoAnalyseAction.java">
+      <file leaf-file-name="CancelAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cineplex/action/CancelAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="840" max-vertical-offset="1458">
-              <caret line="73" column="58" selection-start-line="73" selection-start-column="58" selection-end-line="73" selection-end-column="58" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="504">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="monthAnalyse.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/manager/monthAnalyse.jsp">
+      <file leaf-file-name="manager_logined.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/user/manager_logined.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7258883" vertical-offset="21" max-vertical-offset="612">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="waiter_logined.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/user/waiter_logined.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getMyScreeningProgram.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/waiter/getMyScreeningProgram.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.48730963" vertical-offset="0" max-vertical-offset="591">
+              <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SellTicketAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cineplex/action/SellTicketAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="619" max-vertical-offset="1224">
+              <caret line="79" column="12" selection-start-line="79" selection-start-column="12" selection-end-line="79" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ToTicketAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cineplex/action/ToTicketAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="486" max-vertical-offset="918">
+              <caret line="38" column="59" selection-start-line="38" selection-start-column="59" selection-end-line="38" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cineplex.MemberDetail" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/70e1863c/b1b7b521-728f-483a-8a29-83d882e3a1ae/Cineplex..MemberDetail">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -405,8 +190,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/waiter/seeAllMember.jsp" />
-        <option value="$PROJECT_DIR$/src/cineplex/action/SeeAllMemberAction.java" />
         <option value="$PROJECT_DIR$/web/navigater/member_navigater.jsp" />
         <option value="$PROJECT_DIR$/web/member/changeDetail.jsp" />
         <option value="$PROJECT_DIR$/src/cineplex/service/UserManageService.java" />
@@ -422,7 +205,6 @@
         <option value="$PROJECT_DIR$/src/cineplex/dao/impl/ScreeningProgramDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/cineplex/dao/ActivityDao.java" />
         <option value="$PROJECT_DIR$/src/cineplex/dao/impl/ActivityDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/cineplex/timerTask/DayTask.java" />
         <option value="$PROJECT_DIR$/web/member/cancel.jsp" />
         <option value="$PROJECT_DIR$/src/cineplex/model/MemberDetail.java" />
         <option value="$PROJECT_DIR$/src/cineplex/action/CancelAction.java" />
@@ -453,9 +235,12 @@
         <option value="$PROJECT_DIR$/web/tlds/mytaglib.tld" />
         <option value="$PROJECT_DIR$/src/cineplex/service/TicketManageService.java" />
         <option value="$PROJECT_DIR$/src/cineplex/Utility/Utility.java" />
-        <option value="$PROJECT_DIR$/src/cineplex/service/impl/TicketManageServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/cineplex/action/DoAnalyseAction.java" />
         <option value="$PROJECT_DIR$/web/manager/monthAnalyse.jsp" />
+        <option value="$PROJECT_DIR$/web/manager/addWaiter.jsp" />
+        <option value="$PROJECT_DIR$/web/waiter/createActivity.jsp" />
+        <option value="$PROJECT_DIR$/src/cineplex/service/impl/TicketManageServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/cineplex/timerTask/DayTask.java" />
       </list>
     </option>
   </component>
@@ -519,8 +304,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -528,6 +313,10 @@
               <option name="myItemId" value="Cineplex" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -567,7 +356,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemId" value="waiter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cineplex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cineplex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -603,7 +410,51 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="manager" />
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cineplex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cineplex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cineplex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cineplex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="navigater" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -618,234 +469,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cineplex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cineplex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cineplex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Utility" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cineplex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cineplex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cineplex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="timerTask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cineplex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cineplex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cineplex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tags" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cineplex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cineplex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cineplex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cineplex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cineplex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cineplex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="impl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cineplex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cineplex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cineplex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cineplex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cineplex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cineplex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exception" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cineplex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cineplex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cineplex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cineplex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cineplex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cineplex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="impl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cineplex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cineplex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cineplex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="action" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -863,11 +486,11 @@
     <property name="recentsLimit" value="5" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/struts2-dojo-plugin-2.3.20.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -1155,7 +778,6 @@
     </configuration>
     <configuration default="false" name="Tomcat 7.0.52 (Ubuntu)1" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.52 (Ubuntu)1" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/login" />
-      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
         <artifact name="Cineplex:war exploded">
           <settings>
@@ -1286,7 +908,15 @@
       <workItem from="1426417128059" duration="10660000" />
       <workItem from="1426646769651" duration="1887000" />
       <workItem from="1427443069042" duration="3822000" />
-      <workItem from="1427454103913" duration="3317000" />
+      <workItem from="1427454103913" duration="4659000" />
+      <workItem from="1427956852432" duration="2602000" />
+      <workItem from="1428156095757" duration="250000" />
+      <workItem from="1429281588136" duration="3102000" />
+      <workItem from="1432644189984" duration="517000" />
+      <workItem from="1432786377256" duration="831000" />
+      <workItem from="1432792343014" duration="1115000" />
+      <workItem from="1432795848257" duration="668000" />
+      <workItem from="1432822178200" duration="21000" />
     </task>
     <task id="LOCAL-00001" summary="完成计划制定">
       <created>1425736676713</created>
@@ -1372,11 +1002,17 @@
       <option name="project" value="LOCAL" />
       <updated>1426422581672</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="只剩下上座率和购票情况的统计">
+      <created>1427457470779</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1427457470779</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150670000" />
+    <option name="totallyTimeSpent" value="161118000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1400,7 +1036,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1424,7 +1060,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988048" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.238247" sideWeight="0.49845678" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23984064" sideWeight="0.49845678" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4722222" sideWeight="0.4996016" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1467,7 +1103,8 @@
     <MESSAGE value="完成会员修改注册信息的功能" />
     <MESSAGE value="初步添加了每天的定时器" />
     <MESSAGE value="添加会员取消的功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加会员取消的功能" />
+    <MESSAGE value="只剩下上座率和购票情况的统计" />
+    <option name="LAST_COMMIT_MESSAGE" value="只剩下上座率和购票情况的统计" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1480,124 +1117,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/cineplex/model/AnswerActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21886793" vertical-offset="154" max-vertical-offset="756">
-          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cineplex/model/MemberDetail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7911025" vertical-offset="851" max-vertical-offset="1404">
-          <caret line="112" column="47" selection-start-line="112" selection-start-column="47" selection-end-line="112" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cineplex/action/CancelAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40754718" vertical-offset="0" max-vertical-offset="576">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cineplex/dao/impl/FilmOfficeDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
-          <caret line="30" column="47" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cineplex/dao/impl/AnalyseDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6603774" vertical-offset="316" max-vertical-offset="954">
-          <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cineplex/dao/AnalyseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44150943" vertical-offset="0" max-vertical-offset="530">
-          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cineplex/model/Analyse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5245283" vertical-offset="172" max-vertical-offset="702">
-          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/70e1863c/b1b7b521-728f-483a-8a29-83d882e3a1ae/Cineplex..MemberDetail">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cineplex/model/FilmOfficeMonthCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14563107" vertical-offset="0" max-vertical-offset="618">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cineplex/model/FilmOfficeDayCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14563107" vertical-offset="0" max-vertical-offset="618">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cineplex/dao/impl/TicketDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49514562" vertical-offset="0" max-vertical-offset="756">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cineplex/dao/impl/UserDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7322314" vertical-offset="943" max-vertical-offset="1548">
-          <caret line="98" column="27" selection-start-line="98" selection-start-column="27" selection-end-line="98" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cineplex/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49514562" vertical-offset="0" max-vertical-offset="618">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cineplex/dao/impl/BaseDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75728154" vertical-offset="0" max-vertical-offset="1926">
-          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cineplex/dao/BankAccountDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2038835" vertical-offset="0" max-vertical-offset="618">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cineplex/dao/FilmOfficeDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2038835" vertical-offset="0" max-vertical-offset="618">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cineplex/dao/ScreeningProgramDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.49514562" vertical-offset="0" max-vertical-offset="618">
@@ -1623,19 +1142,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.6545454" vertical-offset="702" max-vertical-offset="2160">
           <caret line="32" column="51" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/70e1863c/b1b7b521-728f-483a-8a29-83d882e3a1ae/Cineplex..ScreeningProgram">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1660,16 +1178,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cineplex/timerTask/DayTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="1386">
-          <caret line="68" column="26" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/out/production/Cineplex/cineplex/action/cardnumber">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="618">
@@ -1689,7 +1197,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
           <caret line="13" column="54" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1704,22 +1211,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7473684" vertical-offset="129" max-vertical-offset="522">
           <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/struts.xml">
-      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="827" max-vertical-offset="1314">
-          <caret line="76" column="60" selection-start-line="76" selection-start-column="60" selection-end-line="76" selection-end-column="60" />
-          <folding>
-            <element signature="n#package#0;n#struts#0;n#!!top" expanded="false" />
-            <element signature="n#package#2;n#struts#0;n#!!top" expanded="false" />
-            <element signature="n#package#3;n#struts#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1734,20 +1225,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7378641" vertical-offset="12" max-vertical-offset="630">
           <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
-          <folding>
-            <element signature="e#574#575#0" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cineplex/timerTask/MonthTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="745" max-vertical-offset="2538">
-          <caret line="50" column="29" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1755,7 +1232,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.88099176" vertical-offset="1717" max-vertical-offset="2412">
           <caret line="145" column="29" selection-start-line="145" selection-start-column="29" selection-end-line="145" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1763,7 +1239,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2802768" vertical-offset="0" max-vertical-offset="792">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1771,7 +1246,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.88099176" vertical-offset="1231" max-vertical-offset="1944">
           <caret line="98" column="41" selection-start-line="98" selection-start-column="41" selection-end-line="98" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1779,9 +1253,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.70873785" vertical-offset="318" max-vertical-offset="936">
           <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1789,9 +1260,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
           <caret line="13" column="63" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1799,7 +1267,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1596" max-vertical-offset="2304">
           <caret line="123" column="58" selection-start-line="123" selection-start-column="58" selection-end-line="123" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1807,9 +1274,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.368932" vertical-offset="0" max-vertical-offset="1296">
           <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1817,7 +1281,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.47572815" vertical-offset="120" max-vertical-offset="846">
           <caret line="32" column="70" selection-start-line="32" selection-start-column="70" selection-end-line="32" selection-end-column="70" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1825,9 +1288,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6796116" vertical-offset="390" max-vertical-offset="1008">
           <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1835,7 +1295,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.39593908" vertical-offset="0" max-vertical-offset="591">
           <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1843,15 +1302,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3570248" vertical-offset="0" max-vertical-offset="605">
           <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cineplex/service/impl/TicketManageServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7322314" vertical-offset="1591" max-vertical-offset="2214">
-          <caret line="128" column="76" selection-start-line="128" selection-start-column="76" selection-end-line="128" selection-end-column="76" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1859,11 +1309,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7281553" vertical-offset="0" max-vertical-offset="618">
           <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#556#557#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1871,9 +1316,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="840" max-vertical-offset="1458">
           <caret line="73" column="58" selection-start-line="73" selection-start-column="58" selection-end-line="73" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1881,7 +1323,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.42639595" vertical-offset="0" max-vertical-offset="591">
           <caret line="14" column="40" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1889,14 +1330,206 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="618">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cineplex/action/WaiterManageAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.2876254" vertical-offset="529" max-vertical-offset="828">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/70e1863c/b1b7b521-728f-483a-8a29-83d882e3a1ae/Cineplex..ActivityDetail">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/manager/addWaiter.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="538" max-vertical-offset="810">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/waiter/createActivity.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="774">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/70e1863c/b1b7b521-728f-483a-8a29-83d882e3a1ae/Cineplex..User">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/manager/monthAnalyse.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7258883" vertical-offset="21" max-vertical-offset="612">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="612">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cineplex/service/impl/TicketManageServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="673" max-vertical-offset="2250">
+          <caret line="74" column="39" selection-start-line="74" selection-start-column="39" selection-end-line="74" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/waiter/sellTicket.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="540">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cineplex/action/SellTicketAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="619" max-vertical-offset="1224">
+          <caret line="79" column="12" selection-start-line="79" selection-start-column="12" selection-end-line="79" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/70e1863c/b1b7b521-728f-483a-8a29-83d882e3a1ae/Cineplex..MemberDetail">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cineplex/action/ToTicketAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
+          <caret line="38" column="59" selection-start-line="38" selection-start-column="59" selection-end-line="38" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cineplex/timerTask/MonthTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="799" max-vertical-offset="2538">
+          <caret line="62" column="23" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/b1b7b521-728f-483a-8a29-83d882e3a1ae">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>b1b7b521-728f-483a-8a29-83d882e3a1ae</OriginalElement>
+          <nodes>
+            <node x="" y="">b1b7b521-728f-483a-8a29-83d882e3a1ae.table:Cineplex.ActivityDetail</node>
+            <node x="" y="">b1b7b521-728f-483a-8a29-83d882e3a1ae.table:Cineplex.Ticket</node>
+            <node x="" y="">b1b7b521-728f-483a-8a29-83d882e3a1ae.table:Cineplex.Activity</node>
+            <node x="" y="">b1b7b521-728f-483a-8a29-83d882e3a1ae.table:Cineplex.BankAccount</node>
+            <node x="" y="">b1b7b521-728f-483a-8a29-83d882e3a1ae.table:Cineplex.User</node>
+            <node x="" y="">b1b7b521-728f-483a-8a29-83d882e3a1ae.table:Cineplex.ScreeningProgram</node>
+            <node x="" y="">b1b7b521-728f-483a-8a29-83d882e3a1ae.table:Cineplex.MemberDetail</node>
+            <node x="" y="">b1b7b521-728f-483a-8a29-83d882e3a1ae.table:Cineplex.FilmOffice</node>
+            <node x="" y="">b1b7b521-728f-483a-8a29-83d882e3a1ae.table:Cineplex.AnswerActivity</node>
+            <node x="" y="">b1b7b521-728f-483a-8a29-83d882e3a1ae.table:Cineplex.RechargeRecord</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.5000000000000001" x="465.0" y="568.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Columns</Category>
+            <Category>Key columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cineplex/timerTask/DayTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="547" max-vertical-offset="1188">
+          <caret line="64" column="24" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/struts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="728" max-vertical-offset="1314">
+          <caret line="76" column="19" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
+          <folding>
+            <element signature="n#package#0;n#struts#0;n#!!top" expanded="false" />
+            <element signature="n#package#2;n#struts#0;n#!!top" expanded="false" />
+            <element signature="n#package#3;n#struts#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="618">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cineplex/action/CancelAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/memberDetail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.18274112" vertical-offset="108" max-vertical-offset="738">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/manager_logined.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="618">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/waiter_logined.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="618">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/waiter/getMyScreeningProgram.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48730963" vertical-offset="0" max-vertical-offset="591">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
           <folding />
         </state>
       </provider>

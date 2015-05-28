@@ -71,6 +71,8 @@ public class TicketManageServiceImpl implements TicketManageService{
             }
             Date date=screeningProgram.getDate();
             numberCountPerDayDao.addCount(date, number);
+            memberDetail.setCredits(memberDetail.getCredits()+price.intValue()/10);
+            userDao.updateMemberDetail(memberDetail);
             return message.toString();
         }else if (leftnumber<number){
             throw new MyException("票不足，只有"+leftnumber+"张");

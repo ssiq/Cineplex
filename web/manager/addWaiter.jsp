@@ -23,7 +23,7 @@
         <table>
             <tr>
                 <th>用户名</th>
-                <td><input name="user.username" type="text" value="<s:property value="user.username"/> "></td>
+                <td><input name="user.username" type="text" value="<s:property value="user.username"/>"></td>
             </tr>
             <tr>
                 <th>密码</th>

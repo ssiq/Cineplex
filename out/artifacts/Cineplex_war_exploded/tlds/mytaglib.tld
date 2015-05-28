@@ -87,4 +87,16 @@
             <type>java.lang.String</type>
         </attribute>
     </tag>
+
+    <tag>
+        <name>displayMaps</name>
+        <tag-class>cineplex.tags.DisplayMapsInTable</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>name</name>
+            <required>true</required>
+            <rtexprvalue>false</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+    </tag>
 </taglib>

@@ -15,6 +15,7 @@
 </head>
 <body>
 <jsp:include page="/navigater/waiter_navigater.jsp"/>
+<p>题目选项请用‘；’隔开</p>
 <form action="doCreateActivity" method="post">
     <s:select list="filmList" label="电影" name="activity.filmName"/>
     <div>
